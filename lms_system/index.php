@@ -15,7 +15,8 @@
     <main class="about-us-back" style="background-image: url(&quot;assets/img/about-us.jpg&quot;);background-position: bottom;">
         <section class="clean-block clean-hero" style="background-image: url(&quot;assets/img/home-office-569359_1920.jpg&quot;);color: rgba(0,106,170,0.85);filter: brightness(97%) contrast(101%) saturate(90%);height: 950px;background-position: center;">
             <div class="text">
-                <h1>Stay Connected. Always.</h1>
+
+                <h1>Learning Management System</h1>
                 <p>Let us guide you through the ways of the internet, through simple video tutorials. No payment needed. Easy.</p><a class="btn btn-outline-light btn-lg" role="button" href="pricing.php">Learn More</a></div>
         </section>
         <section class="clean-block clean-info dark">
