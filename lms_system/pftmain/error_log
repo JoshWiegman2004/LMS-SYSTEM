@@ -1,0 +1,666 @@
+[03-Jun-2020 11:29:11 Australia/Sydney] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'techwis1_Admin'@'cp-wc29.syd02.ds.network' (using password: YES) in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 15
+[03-Jun-2020 15:04:08 Australia/Sydney] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'techwis1_Admin'@'cp-wc29.syd02.ds.network' to database 'techwis1_attendance' in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 3
+[03-Jun-2020 15:04:08 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:04:08 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:04:08 Australia/Sydney] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:05:56 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:05:56 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:05:56 Australia/Sydney] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:05:58 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:05:58 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:05:58 Australia/Sydney] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:24 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:25 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:25 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:26 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:26 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:26 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:26 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:27 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:27 Australia/Sydney] PHP Notice:  Undefined variable: database in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:44 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:45 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:45 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:46 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:46 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:46 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:46 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:47 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:47 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:06:48 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:07:58 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:07:59 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:07:59 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:07:59 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:08:00 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:08:19 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:08:20 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:08:20 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:08:21 Australia/Sydney] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/techwis1/public_html/teacherportal/pftmain/db-connect.php on line 9
+[03-Jun-2020 15:11:45 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/login.php on line 16
+[03-Jun-2020 15:11:45 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/techwis1/public_html/teacherportal/pftmain/login.php:16
+Stack trace:
+#0 /home/techwis1/public_html/teacherportal/pftmain/index.php(3): require()
+#1 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/login.php on line 16
+[03-Jun-2020 15:11:59 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/login.php on line 16
+[03-Jun-2020 15:11:59 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/techwis1/public_html/teacherportal/pftmain/login.php:16
+Stack trace:
+#0 /home/techwis1/public_html/teacherportal/pftmain/index.php(3): require()
+#1 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/login.php on line 16
+[03-Jun-2020 15:13:32 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/login.php on line 16
+[03-Jun-2020 15:13:32 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/techwis1/public_html/teacherportal/pftmain/login.php:16
+Stack trace:
+#0 /home/techwis1/public_html/teacherportal/pftmain/index.php(3): require()
+#1 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/login.php on line 16
+[03-Jun-2020 15:13:38 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/login.php on line 16
+[03-Jun-2020 15:13:38 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/techwis1/public_html/teacherportal/pftmain/login.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/login.php on line 16
+[03-Jun-2020 15:13:42 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 7
+[03-Jun-2020 15:13:42 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 7
+[03-Jun-2020 15:13:42 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 8
+[03-Jun-2020 15:13:42 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 89
+[03-Jun-2020 15:13:42 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/register.php:89
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 89
+[03-Jun-2020 15:14:01 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 7
+[03-Jun-2020 15:14:01 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 7
+[03-Jun-2020 15:14:01 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 8
+[03-Jun-2020 15:14:01 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 77
+[03-Jun-2020 15:14:01 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 77
+[03-Jun-2020 15:14:01 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 86
+[03-Jun-2020 15:14:01 Australia/Sydney] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 86
+[03-Jun-2020 15:14:01 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 89
+[03-Jun-2020 15:14:01 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/register.php:89
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 89
+[03-Jun-2020 15:14:27 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 7
+[03-Jun-2020 15:14:27 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 7
+[03-Jun-2020 15:14:27 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 8
+[03-Jun-2020 15:14:27 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 77
+[03-Jun-2020 15:14:27 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 77
+[03-Jun-2020 15:14:27 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 86
+[03-Jun-2020 15:14:27 Australia/Sydney] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 86
+[03-Jun-2020 15:14:27 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 89
+[03-Jun-2020 15:14:27 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/register.php:89
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 89
+[03-Jun-2020 15:16:49 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 15:16:49 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 15:16:49 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 15:16:49 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 85
+[03-Jun-2020 15:16:49 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 85
+[03-Jun-2020 15:16:49 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 94
+[03-Jun-2020 15:16:49 Australia/Sydney] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 94
+[03-Jun-2020 15:16:49 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 97
+[03-Jun-2020 15:16:49 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/register.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 97
+[03-Jun-2020 15:16:52 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 7
+[03-Jun-2020 15:16:52 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 7
+[03-Jun-2020 15:16:52 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 8
+[03-Jun-2020 15:16:52 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 60
+[03-Jun-2020 15:16:52 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 60
+[03-Jun-2020 15:16:52 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 105
+[03-Jun-2020 15:16:52 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/classes.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 105
+[03-Jun-2020 15:16:56 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 15:16:56 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 15:16:56 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 15:16:56 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 97
+[03-Jun-2020 15:16:56 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/register.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 97
+[03-Jun-2020 15:17:01 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/login.php on line 16
+[03-Jun-2020 15:17:01 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/techwis1/public_html/teacherportal/pftmain/login.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/login.php on line 16
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 97
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/register.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 97
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 7
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 7
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 8
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 60
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 60
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 105
+[03-Jun-2020 15:17:03 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/classes.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 105
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 7
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 7
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 8
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 31
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 31
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 32
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 48
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 48
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 52
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 52
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 60
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 60
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 105
+[03-Jun-2020 15:17:11 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/classes.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/classes.php on line 105
+[03-Jun-2020 15:17:18 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/report.php on line 8
+[03-Jun-2020 15:17:18 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/report.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/report.php on line 8
+[03-Jun-2020 15:17:20 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 15:17:20 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 15:17:20 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 15:17:20 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 97
+[03-Jun-2020 15:17:20 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/register.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 97
+[03-Jun-2020 15:17:32 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 15:17:32 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 15:17:32 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 15:17:32 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 85
+[03-Jun-2020 15:17:32 Australia/Sydney] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 85
+[03-Jun-2020 15:17:32 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 94
+[03-Jun-2020 15:17:32 Australia/Sydney] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 94
+[03-Jun-2020 15:17:32 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 97
+[03-Jun-2020 15:17:32 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/techwis1/public_html/teacherportal/pftmain/register.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 97
+[03-Jun-2020 15:26:30 Australia/Sydney] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 15:30:28 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 15:30:33 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 15:30:35 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 15:33:22 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 15:41:26 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 15:41:34 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 15:43:14 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 15:43:23 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 15:43:38 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 15:43:44 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:44:52 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:44:56 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:48:04 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:48:07 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:48:12 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 40
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Undefined variable: class_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 64
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 40
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Undefined variable: class_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 64
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 40
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Undefined variable: class_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 64
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 40
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Undefined variable: class_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:49:29 Australia/Sydney] PHP Notice:  Array to string conversion in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 64
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:52:14 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:53:31 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 15:53:42 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 16:59:03 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:04:41 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 17:04:51 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 17:06:32 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 17:06:45 Australia/Sydney] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 47
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:07:23 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:08:37 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:11:21 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:11:52 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:12:40 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:12:41 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:12:41 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:13:58 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 1 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:14:21 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined offset: 2 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 31
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 32
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 33
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined offset: 3 in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 34
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 54
+[03-Jun-2020 17:17:28 Australia/Sydney] PHP Notice:  Undefined variable: student_id_fin in /home/techwis1/public_html/teacherportal/pftmain/save-attendance.php on line 63
+[03-Jun-2020 17:37:57 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 12
+[03-Jun-2020 17:37:57 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 12
+[03-Jun-2020 17:37:57 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 13
+[03-Jun-2020 17:37:57 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 14
+[03-Jun-2020 17:39:12 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 13
+[03-Jun-2020 17:39:12 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 13
+[03-Jun-2020 17:39:12 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 14
+[03-Jun-2020 17:39:12 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:40:04 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:40:04 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:40:04 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:40:04 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:40:35 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 41
+[03-Jun-2020 17:40:35 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 41
+[03-Jun-2020 17:40:35 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 42
+[03-Jun-2020 17:40:35 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 43
+[03-Jun-2020 17:41:38 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:41:38 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:41:38 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:41:38 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:42:10 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:42:10 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:42:10 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:42:10 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:42:29 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:42:29 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:42:29 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:42:29 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:42:58 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:42:58 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:42:58 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:42:58 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:42:59 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:42:59 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:42:59 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:42:59 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:43:14 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:43:14 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:43:14 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:43:14 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:43:15 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:43:15 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:43:15 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:43:15 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:43:27 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:43:27 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:43:27 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:43:27 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:43:59 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:43:59 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:43:59 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:43:59 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:44:16 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:44:16 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:44:16 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:44:16 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:44:36 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:44:36 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:44:36 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:44:36 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:44:41 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:44:41 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:44:41 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:44:41 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:44:54 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:44:54 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:44:54 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:44:54 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:45:12 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:45:12 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:45:12 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:45:12 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:45:22 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:45:22 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:45:22 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:45:22 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:46:30 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:46:30 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:46:30 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:46:30 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:47:55 Australia/Sydney] PHP Warning:  include(errors.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:47:55 Australia/Sydney] PHP Warning:  include(): Failed opening 'errors.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 15
+[03-Jun-2020 17:47:55 Australia/Sydney] PHP Notice:  Undefined variable: username in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 16
+[03-Jun-2020 17:47:55 Australia/Sydney] PHP Notice:  Undefined variable: email in /home/techwis1/public_html/teacherportal/pftmain/register.php on line 17
+[03-Jun-2020 17:49:22 Australia/Sydney] PHP Warning:  include(auth_session.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/header.php on line 2
+[03-Jun-2020 17:49:22 Australia/Sydney] PHP Warning:  include(): Failed opening 'auth_session.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/header.php on line 2
+[03-Jun-2020 17:49:26 Australia/Sydney] PHP Warning:  include(auth_session.php): failed to open stream: No such file or directory in /home/techwis1/public_html/teacherportal/pftmain/header.php on line 2
+[03-Jun-2020 17:49:26 Australia/Sydney] PHP Warning:  include(): Failed opening 'auth_session.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/teacherportal/pftmain/header.php on line 2
