@@ -39,7 +39,7 @@
             <div class="container">
                 <div class="block-heading">
                     <h2 class="text-info">What we do</h2>
-                    <p>All we do is try to get you online, fast and for free. We limit costs by staying local, let's unite through the internet New Zealand! Our services include call technical support, PC building and of course our gallery of tutorials right here on our website!</p>
+                    <p>All we do is try to get you online, fast and for free. We limit costs by staying local, let's unite through the internet New Zealand! Our services include call technical support, PC building and of corse our gallery of tutorials right here on our website!</p>
                 </div>
                 <div class="carousel slide" data-ride="carousel" id="carousel-1">
                     <div class="carousel-inner" role="listbox" data-bs-hover-animate="pulse">
