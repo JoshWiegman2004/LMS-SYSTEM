@@ -1,4 +1,4 @@
-<?php include('server.php'); include('auth_session.php'); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
 </head>
         
     <body>
@@ -28,41 +29,25 @@
         <section class="clean-block clean-form dark">
             <div class="container">
                 <div class="block-heading">
-                             <?php
-                             $db = mysqli_connect('cp-wc29', 'techwis1_Admin', 'cal5tHea', 'techwis1_teachersmain');
-                                $dbname = 'techwis1_teachersmain';
-                                $sql = "$db, SHOW TABLES FROM $dbname";
-                                    $result = mysql_query($sql);
-                                    
-                                    if (!$result) {
-                                        echo "DB Error, could not list tables\n";
-                                        echo 'MySQL Error: ' . mysql_error();
-                                        exit;
-                                    }
-                                    
-                                    while ($row = mysql_fetch_row($result)) {
-                                        echo "Table: {$row[0]}\n";
-                                    }
-                            ?>
+                    <div class="card">
+                        <div class="box">
+                            <h2 class="text">Class One</h2>
                         </div>
-                      </div>
-                <script>
-                function openTab(tabName) {
-                  var i;
-                  var x = document.getElementsByClassName("settings");
-                  for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";  
-                  }
-                  document.getElementById(tabName).style.display = "block";  
-                }
-                </script>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h2 class="text">Class Two</h2>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h2 class="text">Class Three</h2>
+                        </div>    
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-   <?php
-    include ("../footer.php")
-    ?>
-    
-
 </body>
 
 
