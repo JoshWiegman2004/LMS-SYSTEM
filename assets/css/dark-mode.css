@@ -1,0 +1,36 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    background-image: url('../img/image5.jpg');
+}
+
+body, html {
+    height: 100%;
+  }
+  
+.parallax {
+    /* The image used */
+    background-image: url('../img/home-office-1867761_1920.jpg');
+    
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section {
+    height:1000px;
+    background-color:white;
+    font-size:36px;
+  }
