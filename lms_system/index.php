@@ -11,27 +11,25 @@
         <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/dark-mode.css">
     </head>
-<body>
 
-    </head>
     <body>
-
-    <div class="parallax"></div>
-        <div class="section">
-        Scroll Up and Down this page to see the parallax scrolling effect.
-        This div is just here to enable scrolling.
-        Tip: Try to remove the background-attachment property to remove the scrolling effect.
-        </div>
-    <div class="parallax"></div>
-
-    <button onclick="darklight()">Toggle dark mode</button>
-
-    <script>
-    function darklight() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-    }
-    </script>
-</body>
-
+    <!__Video background__>
+        <video autoplay muted loop id="backVid">
+            <source src="../assets/img/video.mp4" type="video/mp4">
+        </video>
+    <!__Content_Main__>
+        <section>
+            <p>test123</p>
+        </section>
+    <!__Dark mode__>
+        <!__Dark mode toggle button__>
+        <button onclick="darklight()">Toggle dark mode</button>
+        <!__Dark mode script__>
+        <script>
+            function darklight() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    </body>
 </html>
