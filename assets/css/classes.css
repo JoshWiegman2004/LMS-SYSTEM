@@ -10,13 +10,13 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-.container{
+.classes-container{
     position: relative;
     width: 900px;
     display: flex;
     justify-content: space-around;
 }
-.container .card{
+.classes-container .classes-card{
     position: relative;
     width: 250px;
     background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
@@ -29,12 +29,12 @@ body{
     overflow: hidden;
     transition: 0.5s;
 }
-.container .card:hover{
+.classes-container .classes-card:hover{
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0,0,0,.5);
     
 }
-.container .card:before{
+.classes-container .classes-card:before{
     content: '';
     position: absolute;
     top: 0;
@@ -46,10 +46,10 @@ body{
     z-index: 1;
 }
 
-.card:hover .text{
+.classes-card:hover .classes-text{
     color:#fff
 }
-.text{
+.classes-text{
     position: relative;
     color: #777;
     margin-top: 20px;
@@ -58,3 +58,9 @@ body{
     letter-spacing: 1px;
     transition: 0.5s;
 }
+
+
+
+
+
+/*HEADER*/
