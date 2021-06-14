@@ -26,7 +26,7 @@ echo '
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>TeacherPortal - TechWise</title>
-    <meta name="description" content="Video tutorials for those who need them. Set up all kinds of social media and video chatting programs through easy video tutorials! ">
+    <meta name="description" content="Video tutorials for those who need them. Set up all kinds of social media and video chatting programs through easy video tutorials! ">mmmmmmmmm 
     <link rel="stylesheet" href="../assets/css/classes.css">
 </head>
 
