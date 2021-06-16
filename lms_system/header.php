@@ -27,10 +27,8 @@ echo '
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>TeacherPortal - TechWise</title>
     <meta name="description" content="Video tutorials for those who need them. Set up all kinds of social media and video chatting programs through easy video tutorials! ">
-    <link rel="stylesheet" href="../assets/css/classes.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
 </head>
-
-X-Frame-Options: SAMEORIGIN
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="index.php" style="margin-right: 100px;"><img style="height: 50px;width: 88px;" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">&nbsp;TechWise<h5 style="font-size: 16px; margin-left: 98px; font-weight: 700;">TeacherPortal</h5></a>
             <div></div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
