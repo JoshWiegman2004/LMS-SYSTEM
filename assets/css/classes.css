@@ -1,12 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
+/*
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #F0F1F2;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -15,11 +14,12 @@ body{
     width: 900px;
     display: flex;
     justify-content: space-around;
+    background: #D0D1D2;
 }
+
 .classes-container .classes-card{
     position: relative;
     width: 250px;
-    background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,12 +28,15 @@ body{
     text-align: center;
     overflow: hidden;
     transition: 0.5s;
+    background: #C0C1C2;
 }
+
 .classes-container .classes-card:hover{
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0,0,0,.5);
     
 }
+
 .classes-container .classes-card:before{
     content: '';
     position: absolute;
@@ -41,14 +44,14 @@ body{
     left: -50%;
     width: 100%;
     height: 100%;
-    background: rgba(255,255,255,.03);
     pointer-events: none;
     z-index: 1;
 }
 
 .classes-card:hover .classes-text{
-    color:#fff
+    color:#000
 }
+
 .classes-text{
     position: relative;
     color: #777;
@@ -58,3 +61,5 @@ body{
     letter-spacing: 1px;
     transition: 0.5s;
 }
+*/
+

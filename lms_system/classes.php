@@ -19,6 +19,7 @@
     <?php
     include 'header.php';
     ?>
+    <!--
             <div class="classes-container">
                 <div class="block-heading">
                     <div class="classes-card">
@@ -28,16 +29,14 @@
                     </div>
                     <div class="classes-card">
                         <div class="classes-box">
-                            <h2 class="classes-text">Class Two</h2>
+                            <h2 class="classes-text">Class One</h2>
                         </div>
-                    </div>
-                    <div class="classes-card">
-                        <div class="classes-box">
-                            <h2 class="classes-text">Class Three</h2>
-                        </div>    
                     </div>
                 </div>
             </div>
+    -->
+
+
 </body>
 
 </html>
