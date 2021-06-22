@@ -13,28 +13,27 @@
     <link rel="icon" type="image/png" sizes="1025x575" href="assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
     <link rel="stylesheet" href="../assets/css/classes.css">
 </head>
-        
-    <body>
     
+<body>
     <?php
     include 'header.php';
     ?>
-    <!--
-            <div class="classes-container">
-                <div class="block-heading">
-                    <div class="classes-card">
-                        <div class="classes-box">
-                            <h2 class="classes-text">Class One</h2>
-                        </div>
-                    </div>
-                    <div class="classes-card">
-                        <div class="classes-box">
-                            <h2 class="classes-text">Class One</h2>
-                        </div>
-                    </div>
-                </div>
+    
+    <div class="classes-container">
+        <div class="classes-card">
+            <div class="classes-box">
+                <h2 class="classes-text">Class One</h2>
             </div>
-    -->
+        </div>
+        <div class="classes-card">
+            <div class="classes-box">
+                <h2 class="classes-text">Class Two</h2>
+            </div>
+        </div>
+    </div>
+    
+    <button class="classes-plus-icon">+</button>
+        
 
         
 
