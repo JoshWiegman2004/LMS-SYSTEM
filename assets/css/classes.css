@@ -63,18 +63,18 @@ body{
     transition: 0.5s;
 }
 
-
-
 .classes-plus-icon{
     position: absolute;
     bottom: 25px;
     right: 25px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 200px;
-    font-size: 20px;
+    font-size: 30px;
     transition: 0.5s;
     text-decoration: bold;
+    text-align: center;
+    background-color: 1284FF;
 }
 
 .classes-plus-icon:hover{

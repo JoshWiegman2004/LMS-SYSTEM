@@ -34,9 +34,6 @@
     
     <button class="classes-plus-icon">+</button>
         
-
-        
-
 </body>
 
 </html>
