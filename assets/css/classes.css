@@ -20,7 +20,7 @@ body{
 .classes-container .classes-card{
     position: relative;
     width: 250px;
-    background: linear-gradient(0deg,#f0f1f2,#f0f1f2);
+    background: linear-gradient(0deg,#f0f1f2,#e0e1e2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,6 @@ body{
     content: '';
     position: absolute;
     top: 0;
-    left: -50%;
     width: 100%;
     height: 100%;
     background: rgba(255,255,255,0.1);
@@ -74,7 +73,9 @@ body{
     transition: 0.5s;
     text-decoration: bold;
     text-align: center;
-    background-color: 1284FF;
+    color: #fff;
+    border-color: rgba(255,255,255,0.1);
+    background: linear-gradient(0deg,#1284FF,#4da2ff,#1284FF);
 }
 
 .classes-plus-icon:hover{

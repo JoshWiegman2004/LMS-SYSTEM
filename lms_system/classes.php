@@ -32,8 +32,9 @@
         </div>
     </div>
     
-    <button class="classes-plus-icon">+</button>
-        
+    <div class="test">
+        <button class="classes-plus-icon">+</button>
+    </div>    
 </body>
 
 </html>
