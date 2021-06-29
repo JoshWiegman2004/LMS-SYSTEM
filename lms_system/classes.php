@@ -36,9 +36,10 @@
     <div class="test">
         <button class="classes-plus-icon" onclick="openForm()">+</button>
     </div>
+    <!-- <?php include('errors.php'); ?> -->
     <div class="form-popup" id="addClass">
-        <form action="/classes.php" class="form-container">
-            <label for="psw"><b>Invite Code</b></label>
+        <form method="post" action="classes.php" class="form-container">
+            <label for="classCode"><b>Invite Code</b></label>
             <input type="text" placeholder="Enter class code" name="classCode" required>
 
             <button type="submit" class="btn">✓</button>

@@ -17,6 +17,22 @@ if (isset($_POST['register_btn'])) {
 	register();
 }
 
+//ADD STUDENT TO CLASS
+if (isset($_POST['classCode']))
+	 // call these variables with the global keyword to make them available in function
+	global $classCode;
+	//receiving input
+	$classCode = mysqli_real_escape_string($db, $_POST['classCode'])
+	// form validation: ensure that the form is correctly filled
+	if (empty($classCode)) { 
+		array_push($errors,"A class code needs to be entered."); 
+	}
+if (count($errors) == 0){
+	$code_check_query = "SELECT * FROM classes WHERE $classCode "
+	$results = mysqli_query($db, $code_check_query);
+	$class = mysqli_fetch_assoc($results);
+}
+
 //ADD A CLASS
 if (isset($_POST['add_class'])) {
     // call these variables with the global keyword to make them available in function
