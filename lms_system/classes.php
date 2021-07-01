@@ -41,7 +41,7 @@
             <label for="psw"><b>Invite Code</b></label>
             <input type="text" placeholder="Enter class code" name="classCode" required>
 
-            <button type="submit" class="btn">✓</button>
+            <button type="submit" class="btn">Enter</button>
             <button type="submit" class="btn cancel" onclick="closeForm()">✖</button>
         </form>
     </div>
