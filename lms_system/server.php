@@ -28,10 +28,17 @@ if (isset($_POST['classCode']))
 		array_push($errors,"A class code needs to be entered."); 
 	}
 if (count($errors) == 0){
-	$code_check_query = "SELECT * FROM classes WHERE $classCode "
+	$code_check_query = "SELECT * FROM classes WHERE inviteCode='$classCode' LIMIT 1"
 	$results = mysqli_query($db, $code_check_query);
 	$class = mysqli_fetch_assoc($results);
-}
+
+	if (isset($_POST['classCode'])) {
+		$query = "INSERT INTO classes ($class) 
+				  	VALUES('$curr_user')";
+		mysqli_query($db, $query);
+		$_SESSION['success']  = "Added to class!!";
+		array_push($errors, "Added to class!");
+	}
 
 //ADD A CLASS
 if (isset($_POST['add_class'])) {
@@ -44,11 +51,28 @@ if (isset($_POST['add_class'])) {
 	if (empty($class)) { 
 		array_push($errors,"A class needs to be entered."); 
 	}
+
+function randomCode() {
+
+	$chars = "abcdefghijkmnopqrstuvwxyz023456789";
+	srand((double)microtime()*1000000);
+	$i = 0;
+	$randomCode = '';
+
+	while ($i <= 7) {
+		$num = rand() % 33;
+		$tmp = substr($chars, $num, 1);
+		$randomCode = $randomCode . $tmp;
+		$i++;
+	}
+}
     
  if (count($errors) == 0){
      
     mysqli_query($db,"ALTER TABLE classes ADD $class varchar(100)
         ");
+	mysqli_query($db, "INSERT INTO classes ($class) 
+							VALUES ($randomCode)");
  
  }
 }
