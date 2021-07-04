@@ -18,7 +18,7 @@ if (isset($_POST['register_btn'])) {
 }
 
 //ADD STUDENT TO CLASS
-if (isset($_POST['classCode']))
+if (isset($_POST['classCode'])) {
 	 // call these variables with the global keyword to make them available in function
 	global $classCode;
 	//receiving input
@@ -39,6 +39,8 @@ if (count($errors) == 0){
 		$_SESSION['success']  = "Added to class!!";
 		array_push($errors, "Added to class!");
 	}
+  }
+}
 
 //ADD A CLASS
 if (isset($_POST['add_class'])) {
@@ -218,6 +220,27 @@ if (isset($_POST['log_user'])) {
   		array_push($errors, "Incorrect password or email");
   	}
 }
+}
+
+//SEND EMAIL FOR ACTIVE CLASSES
+if (isset($_POST['weeklyEmail'])){
+	//students to send email to
+	global $students;
+	//Check for students
+	$students = mysqli_query_escape_string($db, $_POST('selectedStudents'));
+
+	if (empty($students)){
+		array_push($errors, "Must select students!");
+	} 
+
+	$classAch = ;
+	$queryCheck = "SELECT FROM achievements WHERE achCount='$classAch' LIMIT 30";
+	$achievements = mysqli_query($db, $queryCheck);
+
+	if (count($errors) == 0) {
+		//SEND EMAIL
+		if (count($achievements) == 1) 
+	}
 }
 
 ?>
