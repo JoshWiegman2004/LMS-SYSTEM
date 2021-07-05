@@ -23,6 +23,7 @@
     <div class="classes-container">
         <div class="classes-card">
             <div class="classes-box">
+                <img class="classes-img" src="../lms_system/classroom.png">
                 <h2 class="classes-text">Class One</h2>
             </div>
         </div>
@@ -42,7 +43,7 @@
             <input type="text" placeholder="Enter class code" name="classCode" required>
 
             <button type="submit" class="btn">Enter</button>
-            <button type="submit" class="btn cancel" onclick="closeForm()">✖</button>
+            <button class="btn cancel" onclick="closeForm()">✖</button>
         </form>
     </div>
 </body>
