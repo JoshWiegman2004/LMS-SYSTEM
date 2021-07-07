@@ -13,35 +13,15 @@
     <link rel="icon" type="image/png" sizes="1025x575" href="assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
     <link rel="icon" type="image/png" sizes="1025x575" href="assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
     <link rel="stylesheet" href="../assets/css/classes.css">
-    
- <nav class="navbar" id="myNavbar">
-    <div class="dropdown">
-        <button class="icon">
-            <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" />
-        </button>
-        <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
-        <div class="dropdown-content">
-            <a class="gap cc-active" href="#">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" />
-            </a>
-            <a class="active cc-active" href="index.html">Home</a>
-            <a href="ip.html">Intellectual Property</a>
-            <a href="tags.html">Alt Tags</a>
-            <a href="contrast.html">Contrast</a>
-            <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a>
-        </div>
-    </div>
-    <div class="textlinks">
-        <div class="container"><a class="navbar-brand logo" href="index.php" style="margin-right: 100px;"><img style="height: 50px;width: 88px;" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">&nbsp;TechWise<h5 style="font-size: 16px; margin-left: 98px; font-weight: 700;">TeacherPortal</h5></a>
-        <a href="ip.html">Intellectual Property</a>
-        <a href="tags.html">Alt Tags</a>
-        <a href="contrast.html">Contrast</a>
-        <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a>
-    </div>
-</nav>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/classestest.css">
 </head>
 
 <body>
+<?php
+    include 'header.php';
+    ?>
+
     <div class="classes-container">
         <div class="classes-card">
             <div class="classes-box">
@@ -79,5 +59,5 @@ function closeForm() {
     document.getElementById("addClass").style.display = "none";
 }
 </script>
-    
+
 </html>
