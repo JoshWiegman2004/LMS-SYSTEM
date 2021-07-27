@@ -31,14 +31,22 @@
             <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a>
         </div>
     </div>
-    <div class="textlinks">
-        <div class="container"><a class="navbar-brand logo" href="index.php" style="margin-right: 100px;"><img style="height: 50px;width: 88px;" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">&nbsp;TechWise<h5 style="font-size: 16px; margin-left: 98px; font-weight: 700;">TeacherPortal</h5></a>
+        <div class="nav-container">
+            <a class="navbar-brand logo" href="index.php">
+                <img style="height: 50px;width: 88px;" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
+                <div class="nav-container-text">
+                    TechWise
+                    <h5>TeacherPortal</h5>
+                </div>
+            </a>
+        </div>
+         <div class="textlinks">
         <a href="ip.html">Intellectual Property</a>
         <a href="tags.html">Alt Tags</a>
         <a href="contrast.html">Contrast</a>
         <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a>
-    </div>
-</nav>
+     </div>
+    </nav>
 </head>
 
 <body>
