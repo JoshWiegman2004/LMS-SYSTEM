@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Classes - Techwise</title>
-    <meta name="description"
-        content="Video tutorials for those who need them. Set up all kinds of social media and video chatting programs through easy video tutorials! ">
+    <meta name="description" content="Video tutorials for those who need them. Set up all kinds of social media and video chatting programs through easy video tutorials! ">
     <link rel="icon" type="image/png" sizes="16x8" href="assets/img/rsz_2326b559-520a-4bff-ad0c-f585ab4b1ddc_1.png">
     <link rel="icon" type="image/png" sizes="32x18" href="assets/img/rsz_2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
     <link rel="icon" type="image/png" sizes="1025x575" href="assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
@@ -14,38 +13,38 @@
     <link rel="icon" type="image/png" sizes="1025x575" href="assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
     <link rel="stylesheet" href="../assets/css/classes.css">
     
- <nav class="navbar" id="myNavbar">
-    <div class="dropdown">
-        <button class="icon">
-            <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" />
-        </button>
-        <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
-        <div class="dropdown-content">
-            <a class="gap cc-active" href="#">
+    <nav class="navbar" id="myNavbar">
+        <div class="dropdown">
+            <button class="icon">
                 <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" />
-            </a>
-            <a class="active cc-active" href="index.html">Home</a>
-            <a href="ip.html">Intellectual Property</a>
-            <a href="tags.html">Alt Tags</a>
-            <a href="contrast.html">Contrast</a>
-            <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a>
+            </button>
+            <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
+            <div class="dropdown-content">
+                <a class="gap cc-active" href="#">
+                    <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" />
+                </a>
+                <a class="active cc-active" href="index.html">Home</a>
+                <a href="ip.html">Intellectual Property</a>
+                <a href="tags.html">Alt Tags</a>
+                <a href="contrast.html">Contrast</a>
+                <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a>
+            </div>
         </div>
-    </div>
         <div class="nav-container">
-            <a class="navbar-brand logo" href="index.php">
-                <img style="height: 50px;width: 88px;" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
+            <a href="index.php">
+                <img class="navbar-brand-logo" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
                 <div class="nav-container-text">
                     TechWise
                     <h5>TeacherPortal</h5>
                 </div>
             </a>
         </div>
-         <div class="textlinks">
-        <a href="ip.html">Intellectual Property</a>
-        <a href="tags.html">Alt Tags</a>
-        <a href="contrast.html">Contrast</a>
-        <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a>
-     </div>
+        <div class="textlinks">
+            <a href="ip.html">Intellectual Property</a>
+            <a href="tags.html">Alt Tags</a>
+            <a href="contrast.html">Contrast</a>
+            <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a>
+         </div>
     </nav>
 </head>
 
