@@ -171,13 +171,13 @@ body {
 .navbar {
 	background-color: #fff;
 	overflow: hidden;
-	position: fixed;
+	position: fixed; /*Change to absolute to demonstrate differnce between sticky nav*/
 	top: 0;
 	width: 100%;
 	z-index: 1;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
     height: 100px;
-
+    font-size: 0px;
 }
 
 .navbar .textlinks{
@@ -204,13 +204,15 @@ body {
 }
 
 .navbar .icon {
-	background-color: #294b8e;
+    background-color: rgba(0,0,0,0);
+    border: none;
 	display: none;
-	padding: 7px 7px 5px
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
 .navbar .active {
-	background-color: #294b8e
+	text-decoration: underline;
 }
 
 .navbar .nav-container{
@@ -251,7 +253,7 @@ body {
 	position: fixed;
 	top: 0;
 	background-color: #333;
-	min-width: 160px;
+	width: 100%;
 	box-shadow: 0 8px 16px 0 rgba (0, 0, 0, .2);
 	z-index: 3
 }
@@ -267,15 +269,11 @@ body {
 	font-size: 24px
 }
 
-.dropdown:hover .dropdown-content {
-	display: block
-}
-
 .dropdown-content .gap {
 	padding: 7px 7px 0
 }
 
-@media screen and (max-width:715px) {
+@media screen and (max-width:915px) {
 	.navbar .textlinks a:not(.active) {
 		display: none
 	}
@@ -284,7 +282,7 @@ body {
 		display: block
 	}
 	.navbar .icon {
-		float: left;
+		float: right;
 		display: block
 	}
 	.navbar .textlinks .active {

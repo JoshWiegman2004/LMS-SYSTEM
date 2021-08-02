@@ -15,19 +15,16 @@
     
     <nav class="navbar" id="myNavbar">
         <div class="dropdown">
-            <button class="icon">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" />
+            <button class="icon" onclick="dropdown();">
+                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png"/>
             </button>
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
-            <div class="dropdown-content">
-                <a class="gap cc-active" href="#">
-                    <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" />
-                </a>
-                <a class="active cc-active" href="index.html">Home</a>
-                <a href="ip.html">Intellectual Property</a>
-                <a href="tags.html">Alt Tags</a>
-                <a href="contrast.html">Contrast</a>
-                <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a>
+            <div class="dropdown-content" id="dropdown-content"> 
+                <a href="classes.php" class="active">Home</a>
+                <a href="#">Class One</a>
+                <a href="#">Class Two</a>
+                <a href="#">Class Three</a>
+                <a href="#">Class Four</a>
             </div>
         </div>
         <div class="nav-container">
@@ -40,10 +37,11 @@
             </a>
         </div>
         <div class="textlinks">
-            <a href="ip.html">Intellectual Property</a>
-            <a href="tags.html">Alt Tags</a>
-            <a href="contrast.html">Contrast</a>
-            <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG</a>
+            <a href="classes.php" class="active">My Classes</a>
+            <a href="#">Class One</a>
+            <a href="#">Class Two</a>
+            <a href="#">Class Three</a>
+            <a href="#">Class Four</a>
          </div>
     </nav>
 </head>
@@ -84,6 +82,23 @@ function openForm() {
 
 function closeForm() {
     document.getElementById("addClass").style.display = "none";
+}
+    
+    
+var dropdownTrue = true;
+
+function one() {
+   document.getElementById("dropdown-content").style.display = "block";
+}
+
+function two() {
+   document.getElementById("dropdown-content").style.display = "none";
+}
+
+function dropdown(){
+   if(dropdownTrue) one();
+  else two();
+  dropdownTrue = !dropdownTrue;
 }
 </script>
     
