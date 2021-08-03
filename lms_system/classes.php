@@ -20,7 +20,7 @@
             </button>
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
             <div class="dropdown-content" id="dropdown-content"> 
-                <a href="classes.php" class="active">Home</a>
+                <a href="classes.php" class="active">My Classes</a>
                 <a href="#">Class One</a>
                 <a href="#">Class Two</a>
                 <a href="#">Class Three</a>
@@ -47,6 +47,7 @@
 </head>
 
 <body>
+    <!--
     <div class="classes-container">
         <div class="classes-card">
             <div class="classes-box">
@@ -73,6 +74,7 @@
             <button class="btn cancel" onclick="closeForm()">✖</button>
         </form>
     </div>
+    -->
 </body>
 
 <script>
