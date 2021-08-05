@@ -96,7 +96,6 @@ body {
   bottom: 20px;
   right: 20px;
   z-index: 9;
-    
     border-color: rgba(255, 255, 255, 0.1);
    box-shadow: 0px 0px 1px 5000px rgba(0,0,0,0.35);
 }
@@ -174,10 +173,13 @@ body {
 	position: fixed; /*Change to absolute to demonstrate differnce between sticky nav*/
 	top: 0;
 	width: 100%;
-	z-index: 1;
+	z-index: 3;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
     height: 100px;
     font-size: 0px;
+    transition: 0.3s;
+    border-bottom: 5px;
+    border-color: white;
 }
 
 .navbar .textlinks{
@@ -200,15 +202,20 @@ body {
 .dropdown-content a:hover,
 .navbar a:hover {
 	color: #000;
-    transition: 0.3s;
 }
 
 .navbar .icon {
     background-color: rgba(0,0,0,0);
     border: none;
 	display: none;
-    padding-top: 25px;
-    padding-right: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar .icon:hover{
+    transform: translateY(-4px);
 }
 
 .navbar .active, .navbar .textlinks .active{
@@ -255,23 +262,29 @@ body {
 	top: 0;
 	background-color: #fff;
 	width: 100%;
-	box-shadow: 0 8px 16px 0 rgba (0, 0, 0, .2);
-	z-index: 3;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+	z-index: 0;
+    align-items: center;
+    overflow-y: hidden;
 }
 
 .dropdown-content a {
-	float: none;
+	float: center;
 	color: #777;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
 	text-align: center;
 	font-family: sans-serif;
-	font-size: 24px
+	font-size: 24px;
+    margin-left: 35%;
+    width: 30%;
+    transition: 0.5s;
 }
 
-.dropdown-content .gap {
-	padding: 7px 7px 0
+.dropdown-content a:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width:915px) {
