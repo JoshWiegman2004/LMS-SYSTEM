@@ -21,7 +21,7 @@
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
             <div class="dropdown-content" id="dropdown-content"> 
                 <a href="classes.php" class="active">My Classes</a>
-                <a href="#" class="test">Class One</a>
+                <a href="#">Class One</a>
                 <a href="#">Class Two</a>
                 <a href="#">Class Three</a>
                 <a href="#">Class Four</a>
@@ -86,15 +86,16 @@ function closeForm() {
     document.getElementById("addClass").style.display = "none";
 }
     
-    
 var dropdownTrue = true;
 
 function one() {
    document.getElementById("dropdown-content").style.display = "block";
+    document.getElementById("myNavbar").style.height = "360px";
 }
 
 function two() {
    document.getElementById("dropdown-content").style.display = "none";
+     document.getElementById("myNavbar").style.height = "100px";
 }
 
 function dropdown(){
