@@ -4,7 +4,7 @@ body {
   display: flex;
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
-  background: #fff;
+  background: #ebebeb;
     justify-content: center;
     align-items: center;
 }
@@ -174,12 +174,11 @@ body {
 	top: 0;
 	width: 100%;
 	z-index: 2;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);*/
+    /*border-bottom: 6px solid #326BEA;*/
     height: 100px;
     font-size: 0px;
     transition: 0.3s;
-    border-bottom: 5px;
-    border-color: white;
 }
 
 .navbar .textlinks{
