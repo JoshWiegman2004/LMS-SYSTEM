@@ -15,8 +15,11 @@
     
     <nav class="navbar" id="myNavbar">
         <div class="dropdown">
-            <button class="icon" onclick="dropdown();">
+            <button class="show-nav" id="show-nav" onclick="dropdown();">
                 <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png"/>
+            </button>
+            <button class="hide-nav" id="hide-nav" onclick="dropdown();">
+                <img src="unnamed.png" height="45px" width="45px"/>
             </button>
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
             <div class="dropdown-content" id="dropdown-content"> 
@@ -90,6 +93,8 @@ var dropdownTrue = true;
 
 function one() {
     document.getElementById("myNavbar").style.height = "360px";
+    document.getElementById("show-nav").style.display = "none";
+    document.getElementById("hide-nav").style.display = "block";
     setTimeout(function(){
         document.getElementById("dropdown-content").style.display = "block";
     }, 250);
@@ -97,8 +102,10 @@ function one() {
 }
 
 function two() {
-   document.getElementById("dropdown-content").style.display = "none";
-     document.getElementById("myNavbar").style.height = "100px";
+    document.getElementById("dropdown-content").style.display = "none";
+    document.getElementById("myNavbar").style.height = "100px";
+    document.getElementById("show-nav").style.display = "block";
+    document.getElementById("hide-nav").style.display = "none";
 }
 
 function dropdown(){
@@ -106,6 +113,7 @@ function dropdown(){
   else two();
   dropdownTrue = !dropdownTrue;
 }
+
 </script>
     
 </html>
