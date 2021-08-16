@@ -343,13 +343,13 @@ body {
   z-index: 3;
   top: 0;
   left: 0;
-  background-color: #326BEA;
+  background-color: #346DEA;
   overflow-y: hidden;
   transition: 0.5s;
 }
 
 .popup-menu-content {
-  position: relative;
+  position: absolute;
   top: 25%;
   width: 100%;
   text-align: center;
@@ -363,4 +363,23 @@ body {
   color: #fff;
   display: block;
   transition: 0.3s;
+}
+
+.popup-menu .hide-nav{
+    height: 45px;
+    width: 45px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+	display: none;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    float: right;
+    font-size: 60px;
+    z-index: 4;
+    color: #fff;
+}
+
+.popup-menu a:hover, .popup-menu .hide-nav:hover{
+    color:#000;
 }
