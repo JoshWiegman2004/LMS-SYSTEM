@@ -326,15 +326,13 @@ body {
 }
 
 @media screen and (min-width:915px) {
-    .navbar .show-nav, .navbar .hide-nav, .dropdown-content{
-        display: none !important;
+    .popup-menu, .popup-menu-content{
+        overflow-y: hidden !important;
 	}
     .navbar{
         height: 100px !important;
     }
 }
-
-
 
 .popup-menu {
   width: 100%;
@@ -349,20 +347,41 @@ body {
 }
 
 .popup-menu-content {
+    margin-top:-5%;
   position: absolute;
   top: 25%;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+}
+
+.popup-menu-content h1{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
 }
 
 .popup-menu a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #fff;
-  display: block;
-  transition: 0.3s;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 32px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.popup-menu .bordered-links {
+    border: 5px solid #fff;
+    border-radius: 12px;
+    padding: 5px;
+    margin-left: 39%;
+    width: 20%;
+    grid-row-gap: 70px;
+    margin-top: 1%;
+}
+
+.popup-menu .bordered-links:hover {
+    border-color: #000;
 }
 
 .popup-menu .hide-nav{
@@ -382,4 +401,11 @@ body {
 
 .popup-menu a:hover, .popup-menu .hide-nav:hover{
     color:#000;
+}
+
+@media screen and (max-width: 600px) {
+    .popup-menu .bordered-links {
+        width: 40%;
+        margin-left: 28%;
+    }
 }
