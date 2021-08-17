@@ -14,7 +14,6 @@ body {
   width: 900px;
   display: flex;
   justify-content: space-around;
-  
 }
 
 .classes-container .classes-card {
@@ -175,7 +174,7 @@ body {
 	width: 100%;
 	z-index: 2;
     /*box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);*/
-    border-bottom: 3px solid #326BEA;*/
+    border-bottom: 3px solid #346DEA;*/
     height: 100px;
     font-size: 0px;
     transition: 0.3s;

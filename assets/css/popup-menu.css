@@ -4,7 +4,7 @@ body {
     display: flex;
     min-height: 100vh;
     font-family: "Montserrat", sans-serif;
-    background: #ebebeb;
+    background: #fff;
     justify-content: center;
     align-items: center;
 }
@@ -174,7 +174,7 @@ body {
 	width: 100%;
 	z-index: 2;
     /*box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);*/
-    /*border-bottom: 6px solid #326BEA;*/
+    border-bottom: 3px solid #346DEA;*/
     height: 100px;
     font-size: 0px;
     transition: 0.3s;
