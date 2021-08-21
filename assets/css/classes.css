@@ -4,8 +4,9 @@ body {
     display: flex;
     min-height: 100vh;
     font-family: "Montserrat", sans-serif;
-    /*background: #fff;*/
-    background-image: url("../../lms_system/fancy-pants.jpg");
+    background: #346DEA;*/
+    /*background-image: linear-gradient(#346DEA, #000, #fff);*/
+    /*background-image: url("../../lms_system/fancy-pants.jpg");*/
     background-repeat: repeat;
     justify-content: center;
     align-items: center;
