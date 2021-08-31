@@ -307,22 +307,20 @@ delete-class:hover{}
 
 
 .classes-plus-icon {
- 
     position: fixed;
     bottom: 25px;
     right: 25px;
     width: 50px;
     height: 50px;
     font-size: 30px;
-    /*
     border-radius: 30px;
     text-decoration: bold;
     text-align: center;
     color: #fff;
     border-color: rgba(255, 255, 255, 0.1);
-    background: linear-gradient(0deg, #1284ff, #4da2ff, #1284ff);
+    background: #346DEA;
     transition: 0.3s;
-    */
+    cursor: pointer;
 }
 
 .classes-plus-icon:hover {
@@ -337,7 +335,7 @@ delete-class:hover{}
     bottom: 20px;
     right: 20px;
     z-index: 9;
-    /*box-shadow: 0px 0px 1px 5000px rgba(0,0,0,0.35);*/
+    box-shadow: 0px 0px 1px 5000px rgba(0,0,0,0.35);
 }
 
 /* Styles to the form container */
@@ -365,26 +363,24 @@ delete-class:hover{}
 }
 
 /* Style for the submit/login button */
-.form-container .btn {
-
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  /*border-radius: 10px;
+.form-button {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 10px;
     background-color: #04aa6d;
     border: none;
-    */
     height: 60px;
     width: 100%;
     align-content: center;
     position: center;
-      transition: 0.3s;
+    transition: 0.3s;
 }
 
 /* Red background color to the cancel button */
-.form-container .cancel {
+.cancel {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -394,10 +390,11 @@ delete-class:hover{}
     width: 40px;
     margin: 0px;
     padding: 1px 1px;
-    /*background: rgba(255, 10, 10, 0.85);*/
+    background: rgba(255, 10, 10, 0.85);
 }
 
 /* Hover effects for buttons */
-.form-container .btn:hover{
-    transform: translateY(-4px);
+.form-button:hover{
+    cursor: pointer;
+    color: #000;
 }
