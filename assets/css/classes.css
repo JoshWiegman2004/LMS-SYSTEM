@@ -173,7 +173,6 @@ body {
     display: flex;
     justify-content: center;
     transition: 0.5;
-    overflow: hidden;
     margin-top: 20px;
 }
 
@@ -181,13 +180,10 @@ body {
     margin-top: 100px;
 }
 
-.classes-container-two, .classes-card{
-}
-
 .classes-card {
     position: relative;
     display: block;
-    width: 250px;
+    width: 30%;
     background: linear-gradient(0deg, #f0f1f2, #e0e1e2);
     height: 300px;
     border-radius: 4px;
@@ -198,6 +194,39 @@ body {
     text-decoration: none;
     z-index: 1;
     margin-left: 20px;
+}
+
+@media screen and (max-width:800px){
+    .classes-card {
+            width: 40%;
+    }
+}
+
+.banner-img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-repeat: repeat;
+}
+
+.class-banner-three .banner-img{
+    background-image: url(../../lms_system/Images/kale-salad.jpg);
+    background-size: 50px 300px;
+}
+
+.class-banner-one .banner-img{
+    background-image: url(../../lms_system/Images/isometropolis.jpg);
+    background-size: 200px 100px;
+}
+
+.class-banner-two .banner-img{
+    background-image: url(../../lms_system/Images/leather-nunchuck.png);
+    background-size: 100px 200px;
+}
+
+.class-banner-four .banner-img{
+    background-image: url(../../lms_system/Images/the-illusionist.png);
+    background-size: 100px 100px;
 }
 
 .classes-card:hover {
@@ -216,7 +245,7 @@ body {
   font-size: 28px;
   letter-spacing: 1px;
   transition: 0.5s;
-    padding-top: 10%;
+    padding-top: 20px;
 }
 
 .classes-subtext {
@@ -271,108 +300,5 @@ delete-class:hover{}
     }
 }
 
-
-/*--------------------------------------------------------------
-                        "Add Class" Function
-----------------------------------------------------------------*/
-
-
-.classes-plus-icon {
-  position: absolute;
-  bottom: 25px;
-  right: 25px;
-  width: 50px;
-  height: 50px;
-  border-radius: 30px;
-  font-size: 30px;
-  text-decoration: bold;
-  text-align: center;
-  color: #fff;
-  border-color: rgba(255, 255, 255, 0.1);
-  background: linear-gradient(0deg, #1284ff, #4da2ff, #1284ff);
-    transition: 0.3s;
-}
-
-.classes-plus-icon:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-}
-
-/* The popup form */
-.form-popup {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9;
-    border-color: rgba(255, 255, 255, 0.1);
-   box-shadow: 0px 0px 1px 5000px rgba(0,0,0,0.35);
-}
-
-/* Styles to the form container */
-.form-container {
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
-    border-radius: 10px;
-}
-
-/* Full-width input fields */
-.form-container input[type="text"] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-/* When the inputs get focus, do something */
-.form-container input[type="text"]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Style for the submit/login button */
-.form-container .btn {
-  background-color: #04aa6d;
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  border-radius: 10px;
-    height: 60px;
-    width: 100%;
-    align-content: center;
-    position: center;
-    border-color: rgba(255, 255, 255, 0.1);
-  background: #1284ff;
-      transition: 0.3s;
-    
-}
-
-/* Red background color to the cancel button */
-.form-container .cancel {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    background: rgba(255, 10, 10, 0.85);
-    font-size: 10px;
-    border-radius: 0px;
-    height: 30px;
-    width: 40px;
-    margin: 0px;
-    padding: 1px 1px;
-}
-
-/* Hover effects for buttons */
-.form-container .btn:hover{
-    transform: translateY(-4px);
-}
-
-.form-container .cancel:hover{
-    transform: translateY(0px);
-}
 
 
