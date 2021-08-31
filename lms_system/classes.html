@@ -83,7 +83,16 @@
     </div>
     
     
-
+    <button class="classes-plus-icon" onclick="openForm()">+</button>
+    
+    <div class="form-popup" id="addClass">
+        <form action="/classes.php" class="form-container">
+            <label for="psw"><b>Invite Code</b></label>
+            <input type="text" placeholder="Enter class code" name="classCode" required>
+            <button type="submit" class="btn">Enter</button>
+            <button class="btn cancel" onclick="closeForm()">✖</button>
+        </form>
+    </div>
 
 </body>
 
