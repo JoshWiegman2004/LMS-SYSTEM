@@ -50,44 +50,46 @@
 </head>
 
 <body>
-    <div class="classes-container-one">
-        <a class="classes-card" href="#">
-            <div class="class-banner-one">
-                <!--<button class="delete-class">✖</button>-->
-                <div class="banner-img"></div>
-            </div>
-            <h2 class="classes-text">Class One</h2>
-            <!--<h4 class="classes-subtext">Click here to access this class</h4>-->
-            
-        </a>
-        <a class="classes-card" href="#">
-            <div class="class-banner-two">
-                <div class="banner-img"></div>
-            </div>
-            <h2 class="classes-text">Class Two</h2>
-        </a>
-    </div>
-    <div class="classes-container-two">
-        <a class="classes-card" href="#">
-            <div class="class-banner-three">
-                <div class="banner-img"></div>
-            </div>
-            <h2 class="classes-text">Class Three</h2>
-        </a>
-        <a class="classes-card" href="#">
-            <div class="class-banner-four">
-                <div class="banner-img"></div>
-            </div>
-            <h2 class="classes-text">Class Four</h2>
-        </a>
+    <div class="content" onclick="closeForm()">
+        <div class="classes-container-one">
+            <a class="classes-card" href="#">
+                <div class="class-banner-one">
+                    <!--<button class="delete-class">✖</button>-->
+                    <div class="banner-img"></div>
+                </div>
+                <h2 class="classes-text">Class One</h2>
+                <!--<h4 class="classes-subtext">Click here to access this class</h4>-->
+
+            </a>
+            <a class="classes-card" href="#">
+                <div class="class-banner-two">
+                    <div class="banner-img"></div>
+                </div>
+                <h2 class="classes-text">Class Two</h2>
+            </a>
+        </div>
+        <div class="classes-container-two">
+            <a class="classes-card" href="#">
+                <div class="class-banner-three">
+                    <div class="banner-img"></div>
+                </div>
+                <h2 class="classes-text">Class Three</h2>
+            </a>
+            <a class="classes-card" href="#">
+                <div class="class-banner-four">
+                    <div class="banner-img"></div>
+                </div>
+                <h2 class="classes-text">Class Four</h2>
+            </a>
+        </div>
     </div>
     
-    
-    <button class="classes-plus-icon" onclick="openForm()">+</button>
+    <button class="classes-plus-icon" id="add-class-button" onclick="openForm()">+</button>
     
     <div class="form-popup" id="addClass">
-        <form action="/classes.php" class="form-container" autocomplete="off">
+        <form action="/classes.php" class="form-container" id="form" autocomplete="off">
             <label for="psw"><b>Invite Code</b></label>
+            <br>
             <input type="text" placeholder="Enter class code" name="classCode" required>
             <button type="submit" class="form-button">Enter</button>
             <button class="form-button cancel" onclick="closeForm()">✖</button>
@@ -99,10 +101,13 @@
 <script>
 function openForm() {
     document.getElementById("addClass").style.display = "block";
+    document.getElementById("add-class-button").style.display = "none";
 }
 
 function closeForm() {
+    document.getElementById("form").reset();
     document.getElementById("addClass").style.display = "none";
+    document.getElementById("add-class-button").style.display = "block";
 }
     
 var dropdownTrue = true;
