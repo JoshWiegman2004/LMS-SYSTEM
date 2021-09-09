@@ -208,24 +208,24 @@ body {
     background-repeat: repeat;
 }
 
-.class-banner-three .banner-img{
-    background-image: url(../../lms_system/Images/kale-salad.jpg);
-    background-size: 50px 300px;
-}
-
 .class-banner-one .banner-img{
-    background-image: url(../../lms_system/Images/isometropolis.jpg);
-    background-size: 200px 100px;
+    background-image: url(../../lms_system/Images/maori_pattern.jpg);
+    background-size: 244px 76px;
 }
 
 .class-banner-two .banner-img{
-    background-image: url(../../lms_system/Images/leather-nunchuck.png);
-    background-size: 100px 200px;
+    background-image: url(../../lms_system/Images/kowhai_pattern.png);
+    background-size: 250px 175px;
+}
+
+.class-banner-three .banner-img{
+    background-image: url(../../lms_system/Images/fern_pattern.jpg);
+    background-size: 250px 250px;
 }
 
 .class-banner-four .banner-img{
-    background-image: url(../../lms_system/Images/the-illusionist.png);
-    background-size: 100px 100px;
+    background-image: url(../../lms_system/Images/nz_flag.jpg);
+    background-size: 400px 400px;
 }
 
 .classes-card:hover {
@@ -235,25 +235,6 @@ body {
 
 .classes-card:hover .classes-text {
     color: #000;
-}
-
-.classes-text {
-  position: relative;
-  color: #777;
-  font-weight: 700;
-  font-size: 28px;
-  letter-spacing: 1px;
-  transition: 0.5s;
-    padding-top: 20px;
-}
-
-.classes-subtext {
-    position: relative;
-  color: #888;
-  font-weight: 300;
-  font-size: 15px;
-  letter-spacing: 1px;
-  transition: 0.5s;
 }
 
 .class-banner-one, .class-banner-two, .class-banner-three, .class-banner-four{
@@ -277,6 +258,26 @@ body {
 .class-banner-four{
     background-color:#4487a6;
 }
+
+.classes-text {
+  position: relative;
+  color: #777;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+    padding-top: 20px;
+}
+
+.classes-subtext {
+    position: relative;
+  color: #888;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
 
 /*346DEA rgb(52, 109, 234)*/
 
@@ -400,4 +401,74 @@ delete-class:hover{}
 .form-button:hover{
     cursor: pointer;
     color: #000;
+}
+
+
+
+
+.banner{
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    background: #eee;
+    border-radius: 10px;
+    background: #f0f1f2;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.stream{
+    width: 80%;
+    margin: auto;
+}
+
+.post{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #eee;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #f0f1f2, #e0e1e2);
+    margin-bottom: 25px;
+}
+
+.post h1{
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.post button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    text-align: center;
+    color: #000;
+    background: #eee;
+    border: solid white 1px;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.post p{
+    margin: 15px;
+}
+
+.date{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 30px;
+    text-align: right;
+    color: #000;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.announcement .date{
+    margin-bottom: 50px;
 }
