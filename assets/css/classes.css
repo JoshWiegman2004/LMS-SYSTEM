@@ -403,21 +403,92 @@ delete-class:hover{}
     color: #000;
 }
 
-
+/*--------------------------------------------------------------
+                        Class Banners
+----------------------------------------------------------------*/
 
 
 .banner{
     width: 80%;
     margin: auto;
-    height: 200px;
-    background: #eee;
+    height: 250px;
     border-radius: 10px;
-    background: #f0f1f2;
-    padding: 20px;
     margin-bottom: 50px;
-    text-align: center;
-    font-size: 40px;
+    font-size: 60px;
+    background-color:#a64444;
+    background-repeat: repeat;
 }
+
+.banner-content{
+    position: absolute;
+    opacity: 1;
+    width: 10%;
+    height: 10%;
+    background-repeat: repeat;
+    background-image: url(../../lms_system/Images/maori_pattern.jpg);
+    background-size: 244px 76px;
+}
+
+.banner-content > *{
+   opacity: ;
+}
+
+.banner h1{
+    position: absolute;
+    font-size: 60px;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+}
+
+/*--------------------------------------------------------------
+                            Filter
+----------------------------------------------------------------*/
+
+.filter{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: rgba(0, 100, 255, 0.2);
+    height: 49px;
+    border-radius: 25px;
+    
+}
+.filter a {
+	color: #000;
+	cursor: pointer;
+	display: block;
+	float: right;
+	font-family: sans-serif;
+	font-size: 15px;
+	padding: 15px 16px;
+	text-align: center;
+	text-decoration: none;
+    transition: 0.3s;
+    border: solid blue 1px;
+    border-radius: 25px;
+    background: #fff;
+}
+
+.filter a:not(.title){
+        margin-left: 10px;
+}
+
+.filter .title{
+    float: left;
+    cursor:default;
+    border: solid black 1px;
+}
+
+.filter img{
+    height: 15px;
+    display: inline-block;
+}
+
+/*--------------------------------------------------------------
+                            Stream
+----------------------------------------------------------------*/
 
 .stream{
     width: 80%;
@@ -427,11 +498,13 @@ delete-class:hover{}
 .post{
     position: relative;
     width: 100%;
-    height: 200px;
-    background: #eee;
+    padding-bottom: 50px;
     border-radius: 10px;
-    background: linear-gradient(0deg, #f0f1f2, #e0e1e2);
+    background: #fff;
+    /*background: linear-gradient(0deg, #f0f1f2, #e0e1e2);*/
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
     margin-bottom: 25px;
+    display: block;
 }
 
 .post h1{
@@ -445,30 +518,37 @@ delete-class:hover{}
     top: 5px;
     right: 5px;
     height: 30px;
+    width: 125px;
     text-align: center;
     color: #000;
     background: #eee;
     border: solid white 1px;
     transition: 0.3s;
     cursor: pointer;
-    z-index: 2;
 }
 
 .post p{
     margin: 15px;
+    display: block;
 }
 
 .date{
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    height: 30px;
-    text-align: right;
+    display: block;
+    text-align: center;
     color: #000;
     transition: 0.3s;
     z-index: 2;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+    height: 20px;
 }
 
-.announcement .date{
-    margin-bottom: 50px;
+.date .left{
+    float: left;
+}
+
+.date .right{
+    float: right;
+    margin-right:25px;
 }

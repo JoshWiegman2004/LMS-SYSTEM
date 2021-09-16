@@ -52,29 +52,34 @@
 <body>
     
 <div class="banner">
-    <br>
-    BANNER TO GO HERE
+    <div class="banner-content"><h1>Class One</h1></div>
+</div>
+    
+<div class="filter">
+    <a href="#" class="title">Displaying:</a>
+    <a href="#" id="tasks" onclick="tasks();">Tasks <img src="Images/black-circle-close-button-png-5.png" id="task-btn"></a>
+    <a href="#" id="announcements" onclick="announcements();">Announcements <img src="Images/black-circle-close-button-png-5.png" id="ann-btn"></a>
 </div>
     
 <div class="stream">
-    <div class="post">
+    <div class="post" id="task">
         <h1>Task</h1>
-        <div class="date">Assigned: 12th Oct<br>Due: 24th Oct</div>
-        <button>Mark as Complete</button>
+        <div class="date"><div class="left">Assigned: 12th Oct</div><div class="right">Due: 24th Oct</div></div>
+        <button id="post-btn-1" onclick="complete1();">Mark as Complete</button>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     
-    <div class="post">
+    <div class="post" id="announcement">
         <h1>Announcement</h1>
         <div class="date">Posted: 16th Oct</div>
-        <button>Mark as Read</button>
+        <button id="post-btn-2" onclick="complete2();">Mark as Read</button>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     
-    <div class="post">
+    <div class="post" id="task2">
         <h1>Task</h1>
         <div class="date">Assigned: 22nd Oct<br>Due: 28th Oct</div>
-        <button>Mark as Complete</button>
+        <button id="post-btn-3" onclick="complete3();">Mark as Complete</button>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
 </div>
@@ -82,6 +87,93 @@
 </body>
 
 <script>
+    
+var buttonTrue = true;
+
+    
+function complete1show(){
+    document.getElementById("post-btn-1").innerHTML = 'Completed';
+    document.getElementById("post-btn-1").style.background = "#2ECC71"
+}
+function complete1hide(){
+    document.getElementById("post-btn-1").innerHTML = 'Mark as Complete';
+    document.getElementById("post-btn-1").style.background = "#eee"
+}
+
+function complete2show(){
+    document.getElementById("post-btn-2").innerHTML = 'Read';
+    document.getElementById("post-btn-2").style.background = "#2ECC71"
+}
+function complete2hide(){
+    document.getElementById("post-btn-2").innerHTML = 'Mark as Read';
+    document.getElementById("post-btn-2").style.background = "#eee"
+}
+    
+function complete3show(){
+    document.getElementById("post-btn-3").innerHTML = 'Completed';
+    document.getElementById("post-btn-3").style.background = "#2ECC71"
+}
+function complete3hide(){
+    document.getElementById("post-btn-3").innerHTML = 'Mark as Complete';
+    document.getElementById("post-btn-3").style.background = "#eee"
+}
+    
+    
+function complete1(){
+   if(buttonTrue) complete1show();
+  else complete1hide();
+  buttonTrue = !buttonTrue;
+}
+function complete2(){
+   if(buttonTrue) complete2show();
+  else complete2hide();
+  buttonTrue = !buttonTrue;
+}    
+function complete3(){
+   if(buttonTrue) complete3show();
+  else complete3hide();
+  buttonTrue = !buttonTrue;
+} 
+   
+    
+var filterTrue = true;
+    
+function tasksClicked(){
+    document.getElementById("tasks").style.background = "rgba(255, 255, 255, 0.5)";
+    document.getElementById("task").style.display = "none";
+    document.getElementById("task2").style.display = "none";
+    document.getElementById("task-btn").style.display = "none";
+}
+function tasksNotClicked(){
+    document.getElementById("tasks").style.background = "#fff";
+    document.getElementById("task").style.display = "block";
+    document.getElementById("task2").style.display = "block";
+    document.getElementById("task-btn").style.display = "inline-block";
+}
+
+function announcementsClicked(){
+    document.getElementById("announcements").style.background = "rgba(255, 255, 255, 0.5)";
+    document.getElementById("announcement").style.display = "none";
+    document.getElementById("ann-btn").style.display = "none";
+}
+function announcementsNotClicked(){
+    document.getElementById("announcements").style.background = "#fff";
+    document.getElementById("announcement").style.display = "block";
+    document.getElementById("ann-btn").style.display = "inline-block";
+}
+    
+function announcements(){
+   if(filterTrue) announcementsClicked();
+  else announcementsNotClicked();
+  filterTrue = !filterTrue;
+}
+    
+function tasks(){
+   if(filterTrue) tasksClicked();
+  else tasksNotClicked();
+  filterTrue = !filterTrue;
+}
+
 
 var dropdownTrue = true;
 
