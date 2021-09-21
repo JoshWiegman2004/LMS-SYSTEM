@@ -450,8 +450,8 @@ delete-class:hover{}
     background: rgba(0, 100, 255, 0.2);
     height: 49px;
     border-radius: 25px;
-    
 }
+
 .filter a {
 	color: #000;
 	cursor: pointer;
@@ -484,6 +484,25 @@ delete-class:hover{}
 }
 
 /*--------------------------------------------------------------
+                            Sorting
+----------------------------------------------------------------*/
+
+.sort{
+    margin: 40px 0px;
+    color: #000;
+	font-size: 25px;
+	text-align: center;
+    transition: 0.3s;
+    border-radius: 25px;
+    background: #fff;
+}
+
+#sort{
+    font-size: 18px;
+}
+
+
+/*--------------------------------------------------------------
                             Stream
 ----------------------------------------------------------------*/
 
@@ -498,7 +517,7 @@ delete-class:hover{}
     padding-bottom: 50px;
     border-radius: 10px;
     margin-bottom: 25px;
-    display: block;
+    display: inline-block;
     background: rgba(166, 68, 68, 0.3);
     /*background: linear-gradient(0deg, #f0f1f2, #e0e1e2);*/
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);*/
@@ -528,6 +547,10 @@ delete-class:hover{}
 .post p{
     margin: 15px;
     display: block;
+}
+
+.sticky{
+    vertical-align: top;
 }
 
 .date{

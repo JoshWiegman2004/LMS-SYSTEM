@@ -61,8 +61,21 @@
     <a href="#" id="tasks" onclick="tasks();">Tasks <img src="Images/black-circle-close-button-png-5.png" id="task-btn"></a>
     <a href="#" id="announcements" onclick="announcements();">Announcements <img src="Images/black-circle-close-button-png-5.png" id="ann-btn"></a>
 </div>
+  
+
     
 <div class="stream">
+    <form class="sort" action="/action_page.php">
+        <label for="sort">Sort By:</label>
+        <select name="sort" id="sort">
+            <option value="due-new">Date Due (Newest to Oldest)</option>
+            <option value="due-old">Date Due (Oldest to Newest)</option>
+            <option value="assign-new">Date Assigned(Newest to Oldest)</option>
+            <option value="assign-old">Date Assigned(Oldest to Newest)</option>
+        </select>
+        <input type="submit">
+    </form>
+    
     <div class="post" id="task">
         <h1>Task</h1>
         <div class="date"><div class="left">Assigned: 12th Oct</div><div class="right">Due: 24th Oct</div></div>
@@ -70,7 +83,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     
-    <div class="post" id="announcement">
+    <div class="post sticky" id="announcement">
         <h1>Announcement</h1>
         <div class="date">Posted: 16th Oct</div>
         <button id="post-btn-2" onclick="complete2();">Mark as Read</button>
