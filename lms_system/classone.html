@@ -65,7 +65,7 @@
 
     
 <div class="stream">
-    <form class="sort" action="/action_page.php">
+    <!-- <form class="sort" action="/action_page.php">
         <label for="sort">Sort By:</label>
         <select name="sort" id="sort">
             <option value="due-new">Date Due (Newest to Oldest)</option>
@@ -74,26 +74,26 @@
             <option value="assign-old">Date Assigned(Oldest to Newest)</option>
         </select>
         <input type="submit">
-    </form>
+    </form> -->
     
     <div class="post" id="task">
         <h1>Task</h1>
         <div class="date"><div class="left">Assigned: 12th Oct</div><div class="right">Due: 24th Oct</div></div>
-        <button id="post-btn-1" onclick="complete1();">Mark as Complete</button>
+        <button id="post-btn-1" onclick="complete1();" title="Mark as Complete">✖</button>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     
-    <div class="post sticky" id="announcement">
+    <div class="post" id="announcement">
         <h1>Announcement</h1>
         <div class="date">Posted: 16th Oct</div>
-        <button id="post-btn-2" onclick="complete2();">Mark as Read</button>
+        <button id="post-btn-2" onclick="complete2();">✖</button>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     
     <div class="post" id="task2">
         <h1>Task</h1>
         <div class="date">Assigned: 22nd Oct<br>Due: 28th Oct</div>
-        <button id="post-btn-3" onclick="complete3();">Mark as Complete</button>
+        <button id="post-btn-3" onclick="complete3();">✖</button>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
 </div>
@@ -106,29 +106,29 @@ var buttonTrue = true;
 
     
 function complete1show(){
-    document.getElementById("post-btn-1").innerHTML = 'Completed';
+    document.getElementById("post-btn-1").innerHTML = '✓';
     document.getElementById("post-btn-1").style.background = "#2ECC71"
 }
 function complete1hide(){
-    document.getElementById("post-btn-1").innerHTML = 'Mark as Complete';
+    document.getElementById("post-btn-1").innerHTML = '✖';
     document.getElementById("post-btn-1").style.background = "#eee"
 }
 
 function complete2show(){
-    document.getElementById("post-btn-2").innerHTML = 'Read';
+    document.getElementById("post-btn-2").innerHTML = '<p>✓</p>';
     document.getElementById("post-btn-2").style.background = "#2ECC71"
 }
 function complete2hide(){
-    document.getElementById("post-btn-2").innerHTML = 'Mark as Read';
+    document.getElementById("post-btn-2").innerHTML = '✖';
     document.getElementById("post-btn-2").style.background = "#eee"
 }
     
 function complete3show(){
-    document.getElementById("post-btn-3").innerHTML = 'Completed';
+    document.getElementById("post-btn-3").innerHTML = '✓';
     document.getElementById("post-btn-3").style.background = "#2ECC71"
 }
 function complete3hide(){
-    document.getElementById("post-btn-3").innerHTML = 'Mark as Complete';
+    document.getElementById("post-btn-3").innerHTML = '✖';
     document.getElementById("post-btn-3").style.background = "#eee"
 }
     
