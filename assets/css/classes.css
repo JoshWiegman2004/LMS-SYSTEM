@@ -474,13 +474,10 @@ delete-class:hover{}
 	text-align: center;
 	text-decoration: none;
     transition: 0.3s;
-    border: solid blue 1px;
+    border: solid rgb(52, 109, 234) 2px;
     border-radius: 15px;
     background: #fff;
-}
-
-.filter a:not(.title){
-        margin-left: 10px;
+    margin-left: 10px;
 }
 
 .filter .title{
@@ -500,13 +497,14 @@ delete-class:hover{}
 ----------------------------------------------------------------*/
 
 .sort{
-    margin: 40px 0px;
+    margin: 10px 0px;
     color: #000;
 	font-size: 25px;
 	text-align: center;
     transition: 0.3s;
     border-radius: 25px;
     background: #fff;
+    float: left;
 }
 
 #sort{
@@ -532,17 +530,7 @@ delete-class:hover{}
     display: inline-block;
     border: solid rgb(52, 109, 234) 3px;
     color: #000000;
-    /*background: linear-gradient(0deg, #f0f1f2, #e0e1e2);
-    background: rgb(52, 109, 234, 0.19);*/
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);*/
-}
-
-.post h1{
-    text-align: center;
-    padding-top: 10px;
-    margin: auto;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .post button{
@@ -561,6 +549,14 @@ delete-class:hover{}
     cursor: pointer;
 }
 
+.post h1{
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
 .post p{
     margin: 15px;
     display: block;
@@ -572,16 +568,20 @@ delete-class:hover{}
     transition: 0.3s;
     z-index: 2;
     padding: 5px;
-    width: 300px;
+    width: 350px;
     margin: auto;
     height: 20px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
 }
 
 .date .left{
     float: left;
+    
 }
 
 .date .right{
     float: right;
-    margin-right:25px;
+    margin-right:30px;
 }

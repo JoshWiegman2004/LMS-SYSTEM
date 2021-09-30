@@ -57,15 +57,10 @@
 </div>
     
 <div class="filter">
-    <a href="#" class="title">Displaying:</a>
     <a href="#" id="tasks" onclick="tasks();">Tasks <img src="Images/black-circle-close-button-png-5.png" id="task-btn"></a>
     <a href="#" id="announcements" onclick="announcements();">Announcements <img src="Images/black-circle-close-button-png-5.png" id="ann-btn"></a>
-</div>
-  
-
     
-<div class="stream">
-    <!-- <form class="sort" action="/action_page.php">
+    <form class="sort" action="/action_page.php">
         <label for="sort">Sort By:</label>
         <select name="sort" id="sort">
             <option value="due-new">Date Due (Newest to Oldest)</option>
@@ -74,7 +69,13 @@
             <option value="assign-old">Date Assigned(Oldest to Newest)</option>
         </select>
         <input type="submit">
-    </form> -->
+    </form>
+</div>
+  
+
+    
+<div class="stream">
+    
     
     <div class="post" id="task">
         <h1>Task</h1>
@@ -115,7 +116,7 @@ function complete1hide(){
 }
 
 function complete2show(){
-    document.getElementById("post-btn-2").innerHTML = '<p>✓</p>';
+    document.getElementById("post-btn-2").innerHTML = '✓';
     document.getElementById("post-btn-2").style.background = "#2ECC71"
 }
 function complete2hide(){
@@ -153,7 +154,8 @@ function complete3(){
 var filterTrue = true;
     
 function tasksClicked(){
-    document.getElementById("tasks").style.background = "rgba(255, 255, 255, 0.5)";
+    document.getElementById("tasks").style.background = "rgba(0, 0, 0, 0.2)";
+    document.getElementById("tasks").style.cursor = "pointer";
     document.getElementById("task").style.display = "none";
     document.getElementById("task2").style.display = "none";
     document.getElementById("task-btn").style.display = "none";
@@ -166,7 +168,8 @@ function tasksNotClicked(){
 }
 
 function announcementsClicked(){
-    document.getElementById("announcements").style.background = "rgba(255, 255, 255, 0.5)";
+    document.getElementById("announcements").style.background = "rgba(0, 0, 0, 0.2)";
+    document.getElementById("announcements").style.cursor = "pointer";
     document.getElementById("announcement").style.display = "none";
     document.getElementById("ann-btn").style.display = "none";
 }
