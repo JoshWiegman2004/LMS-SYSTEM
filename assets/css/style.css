@@ -1,0 +1,23 @@
+
+body {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  background-image: url('../img/image5.jpg');
+}
+
+body, html {
+  height: 100%;
+}
+
+.fss-container {
+  position: absolute;
+  margin: 0px, 0px, 0px, 0px;
+  height: 100%;
+  width: 100%;
+}
