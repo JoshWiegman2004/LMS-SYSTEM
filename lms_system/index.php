@@ -11,11 +11,9 @@
 
 <!-- BACKGROUND -->
 
-<div id="fss-container" class="fss-container">
-
-  <div id="fss-output" class="fss-container"></div>
-
-</div>
+<video autoplay muted loop id="VidBack">
+  <source src="./img/students-devices.mp4" type="video/mp4">
+</video>
 
 <body>
 
