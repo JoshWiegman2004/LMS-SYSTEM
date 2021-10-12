@@ -1,33 +1,25 @@
-
+/* Setting generic body values */
 body {
   background-color: white;
   color: black;
   font-size: 25px;
 }
 
+/* Setting style values for dark-mode feature */
 .dark-mode {
   background-color: black;
   color: white;
   background-image: url('../img/image5.jpg');
 }
 
+/* Setting generic web-page values */
 body, html {
   height: 100%;
   padding: 0px, 0px, 0px, 0px;
   margin: 0px, 0px, 0px, 0px;
-  background-image: url("../img/back2.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
-.fss-container {
-  position: absolute;
-  margin: 0px, 0px, 0px, 0px;
-  height: 100%;
-  width: 100%;
-}
-
-/* Style the video: 100% width and height to cover the entire window */
+/* Styling the video background: 110% width and height to cover the entire window */
 #VidBack {
   position: fixed;
   right: 0 !important;

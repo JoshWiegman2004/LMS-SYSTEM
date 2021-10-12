@@ -15,8 +15,11 @@
     
     <nav class="navbar" id="myNavbar">
         <div class="dropdown">
-            <button class="icon" onclick="dropdown();">
+            <button class="show-nav" id="show-nav" onclick="dropdown();">
                 <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png"/>
+            </button>
+            <button class="hide-nav" id="hide-nav" onclick="dropdown();">
+                <img src="unnamed.png" height="45px" width="45px"/>
             </button>
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
             <div class="dropdown-content" id="dropdown-content"> 
@@ -27,10 +30,10 @@
                 <a href="#">Class Four</a>
             </div>
         </div>
-        <div class="nav-container">
+        <div class="nav-logo">
             <a href="index.php">
-                <img class="navbar-brand-logo" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
-                <div class="nav-container-text">
+                <img class="logo-image" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
+                <div class="nav-logo-text">
                     TechWise
                     <h5>TeacherPortal</h5>
                 </div>
@@ -47,54 +50,83 @@
 </head>
 
 <body>
-    <!--
-    <div class="classes-container">
-        <div class="classes-card">
-            <div class="classes-box">
-                <img class="classes-img" src="../lms_system/classroom.png">
+    <div class="content" onclick="closeForm()">
+        <div class="classes-container-one">
+            <a class="classes-card" href="classone.php">
+                <div class="class-banner-one">
+                    <!--<button class="delete-class">✖</button>-->
+                    <div class="banner-img"></div>
+                </div>
                 <h2 class="classes-text">Class One</h2>
-            </div>
-        </div>
-        <div class="classes-card">
-            <div class="classes-box">
+                <!--<h4 class="classes-subtext">Click here to access this class</h4>-->
+
+            </a>
+            <a class="classes-card" href="#">
+                <div class="class-banner-two">
+                    <div class="banner-img"></div>
+                </div>
                 <h2 class="classes-text">Class Two</h2>
-            </div>
+            </a>
+        </div>
+        <div class="classes-container-two">
+            <a class="classes-card" href="#">
+                <div class="class-banner-three">
+                    <div class="banner-img"></div>
+                </div>
+                <h2 class="classes-text">Class Three</h2>
+            </a>
+            <a class="classes-card" href="#">
+                <div class="class-banner-four">
+                    <div class="banner-img"></div>
+                </div>
+                <h2 class="classes-text">Class Four</h2>
+            </a>
         </div>
     </div>
-
-    <div class="test">
-        <button class="classes-plus-icon" onclick="openForm()">+</button>
-    </div>
+    
+    <button class="classes-plus-icon" id="add-class-button" onclick="openForm()">+</button>
+    
     <div class="form-popup" id="addClass">
-        <form action="/classes.php" class="form-container">
+        <form action="/classes.php" class="form-container" id="form" autocomplete="off">
             <label for="psw"><b>Invite Code</b></label>
+            <br>
             <input type="text" placeholder="Enter class code" name="classCode" required>
-
-            <button type="submit" class="btn">Enter</button>
-            <button class="btn cancel" onclick="closeForm()">✖</button>
+            <button type="submit" class="form-button">Enter</button>
+            <button class="form-button cancel" onclick="closeForm()">✖</button>
         </form>
     </div>
-    -->
+
 </body>
 
 <script>
 function openForm() {
     document.getElementById("addClass").style.display = "block";
+    document.getElementById("add-class-button").style.display = "none";
 }
 
 function closeForm() {
+    document.getElementById("form").reset();
     document.getElementById("addClass").style.display = "none";
+    document.getElementById("add-class-button").style.display = "block";
 }
-    
     
 var dropdownTrue = true;
 
 function one() {
-   document.getElementById("dropdown-content").style.display = "block";
+    document.getElementById("myNavbar").style.height = "360px";
+    document.getElementById("show-nav").style.display = "none";
+    document.getElementById("hide-nav").style.display = "block";
+    setTimeout(function(){
+        document.getElementById("dropdown-content").style.display = "block";
+    }, 250);
+        
 }
 
 function two() {
-   document.getElementById("dropdown-content").style.display = "none";
+    document.getElementById("dropdown-content").style.display = "none";
+    document.getElementById("myNavbar").style.height = "100px";
+    document.getElementById("show-nav").style.display = "block";
+    document.getElementById("hide-nav").style.display = "none";
 }
 
 function dropdown(){
@@ -102,6 +134,7 @@ function dropdown(){
   else two();
   dropdownTrue = !dropdownTrue;
 }
+
 </script>
     
 </html>
