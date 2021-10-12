@@ -10,6 +10,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
 <link rel="manifest" href="../assets/img/favicons/site.webmanifest">
 <link rel="mask-icon" href="../assets/img/favicons/safari-pinned-tab.svg" color="#000000">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
@@ -20,10 +21,14 @@
 </head>
 <!-- HEADER ENDS -->
 <!-- NAVBAR STARTS -->
-<?php include('header.php') ?>
-<!--
+
 <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container"><a class="navbar-brand logo" href="index.php" style="margin-right: 100px;"><img style="height: 50px;width: 88px;" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">&nbsp;TechWise<h5 style="font-size: 16px; margin-left: 98px; font-weight: 700;">LMS Systems</h5></a>
+        <div class="container">
+            <a class="navbar-brand logo" href="index.php" style="margin-right: 100px;">
+                <img style="height: 60px;width: 108px;" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">&nbsp;
+                <h1 style="font-size: 25px; margin-top: -58px; margin-left: 116px;">TechWise</h1>
+                <h5 style="font-size: 16px; margin-left: 118px; margin-top: -12px; font-weight: 700;">LMS Systems</h5>
+            </a>
             <div></div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
@@ -32,7 +37,7 @@
             </div>
         </div>
     </nav>
--->
+
 <!-- NAVBAR ENDS -->
 <!-- BACKGROUND -->
 

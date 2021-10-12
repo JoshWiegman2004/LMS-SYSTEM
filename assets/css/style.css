@@ -21,10 +21,10 @@ body, html {
 
 /* Styling the video background: 110% width and height to cover the entire window */
 #VidBack {
-  position: fixed;
+  position: relative;
   right: 0 !important;
-  left: -15px !important;
-  top: 0 !important;
-  width: 110% !important; 
+  left: 0 !important;
+  top: 0;
+  width: 100% !important; 
   height: 110% !important;
 }
