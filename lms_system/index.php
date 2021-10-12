@@ -11,9 +11,7 @@
 
 <!-- BACKGROUND -->
 
-<video autoplay muted loop id="VidBack">
-  <source src="./img/students-devices.mp4" type="video/mp4">
-</video>
+
 
 <body>
 
