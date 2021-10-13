@@ -25,7 +25,7 @@
 <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container">
             <a class="navbar-brand logo" href="index.php" style="margin-right: 100px;">
-                <img style="height: 60px;width: 60px;margin-left:50px;" src="../assets/img/app.png">&nbsp;
+                <img style="height: 60px;width: 108px;" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">&nbsp;
                 <h1 style="font-size: 25px; margin-top: -58px; margin-left: 116px;">TechWise</h1>
                 <h5 style="font-size: 16px; margin-left: 118px; margin-top: -12px; font-weight: 700;">LMS Systems</h5>
             </a>
