@@ -186,7 +186,7 @@ ul li:not(:last-child)::after{
   margin-left: 10px;
   width: 100px;
 }
-*/
+
 
 .nav-item-spec1, .nav-item-spec{
   border: none;
@@ -204,4 +204,4 @@ ul li:not(:last-child)::after{
   margin-left: 10px;
   width: 100px;
 }
-
+*/

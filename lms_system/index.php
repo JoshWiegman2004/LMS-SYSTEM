@@ -36,8 +36,10 @@
                     <li class="nav-item" role="presentation"><a class="nav-link " href="classes.php">Classes</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link " href="file-manager.php">Files</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link " href="contact-us.php">Contact</a></li>
-                    <button class="nav-item-spec" role="presentation"><a class="nav-link-spec">LOG IN</a></button>
-                    <button class="nav-item-spec1" role="presentation"><a class="nav-link-spec">SIGN UP</a></button>
+                    <li class="nav-item" role="presentation"><a class="nav-link " href="file-manager.php">Log in</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link " href="contact-us.php">Sign up</a></li>
+                    <!-- <button class="nav-item-spec" role="presentation"><a class="nav-link-spec">LOG IN</a></button>
+                    <button class="nav-item-spec1" role="presentation"><a class="nav-link-spec">SIGN UP</a></button> -->
                 </ul>
             </div>
         </div>
