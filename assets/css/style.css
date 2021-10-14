@@ -148,7 +148,7 @@ body, html {
 }
 
 /* Style lines between navbar items */
-
+/*
 ul {
   list-style:none;
 }
@@ -166,9 +166,9 @@ ul li:not(:last-child)::after{
   top:0; 
   height:100%;
 }
-
+*/
 /* Style log in/sign up buttons in navigation bar */
-
+/*
 .nav-item-spec {
   border: 3px solid black;
   border-color: #076BFF;
@@ -186,8 +186,9 @@ ul li:not(:last-child)::after{
   margin-left: 10px;
   width: 100px;
 }
+*/
 
-.nav-item-spec1 {
+.nav-item-spec1, .nav-item-spec{
   border: none;
   background-color: #076BFF;
   color: white;
@@ -203,3 +204,4 @@ ul li:not(:last-child)::after{
   margin-left: 10px;
   width: 100px;
 }
+
