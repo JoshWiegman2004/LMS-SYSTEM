@@ -146,3 +146,60 @@ body, html {
     height: 65px;
   }
 }
+
+/* Style lines between navbar items */
+
+ul {
+  list-style:none;
+}
+ul li{
+  display:inline-block; 
+  padding:0 7px; 
+  position:relative;
+}
+ul li:not(:last-child)::after{
+  content:""; 
+  border:1px solid #4b4b4b;
+  border-width: 1px 1px 0 0;
+  position:absolute; 
+  right:6px; 
+  top:0; 
+  height:100%;
+}
+
+/* Style log in/sign up buttons in navigation bar */
+
+.nav-item-spec {
+  border: 3px solid black;
+  border-color: #076BFF;
+  background-color: white;
+  color: #7F7F7F;
+  font-family: Montserrat,sans-serif;
+  font-size:13px;
+  font-weight:600;
+  line-height:1.5;
+  box-shadow: none;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-block;
+  padding: 6px;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.nav-item-spec1 {
+  border: none;
+  background-color: #076BFF;
+  color: white;
+  font-family: Montserrat,sans-serif;
+  font-size:13px;
+  font-weight:600;
+  line-height:1.5;
+  box-shadow: none;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-block;
+  padding: 6px;
+  margin-left: 10px;
+  width: 100px;
+}
