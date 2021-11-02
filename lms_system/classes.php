@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Classes - Techwise</title>
+    <meta name="description" content="Video tutorials for those who need them. Set up all kinds of social media and video chatting programs through easy video tutorials! ">
     <link rel="icon" type="image/png" sizes="16x8" href="assets/img/rsz_2326b559-520a-4bff-ad0c-f585ab4b1ddc_1.png">
     <link rel="icon" type="image/png" sizes="32x18" href="assets/img/rsz_2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
     <link rel="icon" type="image/png" sizes="1025x575" href="assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
@@ -14,118 +15,113 @@
     
     <nav class="navbar" id="myNavbar">
         <div class="dropdown">
-            <button class="show-nav" id="show-nav" onclick="dropdown();">
+            <button class="showNav" id="showNav" onclick="dropdown();">
                 <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png"/>
             </button>
-            <button class="hide-nav" id="hide-nav" onclick="dropdown();">
+            <button class="hideNav" id="hideNav" onclick="dropdown();">
                 <img src="unnamed.png" height="45px" width="45px"/>
             </button>
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
-            <div class="dropdown-content" id="dropdown-content"> 
-                <a href="classes.php" class="active">My Classes</a>
-                <a href="#">Class One</a>
-                <a href="#">Class Two</a>
-                <a href="#">Class Three</a>
-                <a href="#">Class Four</a>
+            <div class="dropdownContent" id="dropdownContent"> 
+                <a href="classes.html" class="active">My Classes</a>
+                <a href="class1.html">Class One</a>
+                <a href="class2.html">Class Two</a>
+                <a href="class3.html">Class Three</a>
+                <a href="class4.html">Class Four</a>
             </div>
         </div>
-        <div class="nav-logo">
+        <div class="navLogo">
             <a href="index.php">
-                <img class="logo-image" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
-                <div class="nav-logo-text">
+                <img class="logoImage" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
+                <div class="navLogoText">
                     TechWise
                     <h5>TeacherPortal</h5>
                 </div>
             </a>
         </div>
         <div class="textlinks">
-            <a href="classes.php" class="active">My Classes</a>
-            <a href="#">Class One</a>
-            <a href="#">Class Two</a>
-            <a href="#">Class Three</a>
-            <a href="#">Class Four</a>
+            <a href="classes.html" class="active">My Classes</a>
+            <a href="class1.html">Class One</a>
+            <a href="class2.html">Class Two</a>
+            <a href="class3.html">Class Three</a>
+            <a href="class4.html">Class Four</a>
          </div>
     </nav>
 </head>
 
 <body>
     <div class="content" onclick="closeForm()">
-        <div class="classes-container-one">
-            <a class="classes-card" href="classone.php">
-                <div class="class-banner-one">
-                    <!--<button class="delete-class">✖</button>-->
-                    <div class="banner-img"></div>
+        <div class="classesContainer1">
+            <a class="classesCard" href="class1.html">
+                <div class="classBanner1">
+                    <div class="bannerImg"></div>
                 </div>
-                <h2 class="classes-text">Class One</h2>
+                <h2 class="classesText">Class One</h2>
                 <!--<h4 class="classes-subtext">Click here to access this class</h4>-->
 
             </a>
-            <a class="classes-card" href="#">
-                <div class="class-banner-two">
-                    <div class="banner-img"></div>
+            <a class="classesCard" href="class2.html">
+                <div class="classBanner2">
+                    <div class="bannerImg"></div>
                 </div>
-                <h2 class="classes-text">Class Two</h2>
+                <h2 class="classesText">Class Two</h2>
             </a>
         </div>
-        <div class="classes-container-two">
-            <a class="classes-card" href="#">
-                <div class="class-banner-three">
-                    <div class="banner-img"></div>
+        <div class="classesContainer2">
+            <a class="classesCard" href="class3.html">
+                <div class="classBanner3">
+                    <div class="bannerImg"></div>
                 </div>
-                <h2 class="classes-text">Class Three</h2>
+                <h2 class="classesText">Class Three</h2>
             </a>
-            <a class="classes-card" href="#">
-                <div class="class-banner-four">
-                    <div class="banner-img"></div>
+            <a class="classesCard" href="class4.html">
+                <div class="classBanner4">
+                    <div class="bannerImg"></div>
                 </div>
-                <h2 class="classes-text">Class Four</h2>
+                <h2 class="classesText">Class Four</h2>
             </a>
         </div>
     </div>
     
-    <button class="classes-plus-icon" id="add-class-button" onclick="openForm()">+</button>
+    <button class="classesPlusIcon" id="addClassButton" onclick="openForm()">+</button>
     
-    <div class="form-popup" id="addClass">
-        <form action="/classes.php" class="form-container" id="form" autocomplete="off">
+    <div class="formPopup" id="addClass">
+        <form action="/classes.php" class="formContainer" id="form" autocomplete="off">
             <label for="psw"><b>Invite Code</b></label>
             <br>
             <input type="text" placeholder="Enter class code" name="classCode" required>
-            <button type="submit" class="form-button">Enter</button>
-            <button class="form-button cancel" onclick="closeForm()">✖</button>
+            <button type="submit" class="formButton">Enter</button>
+            <button class="formButton cancel" onclick="closeForm()">✖</button>
         </form>
     </div>
-
 </body>
 
 <script>
 function openForm() {
     document.getElementById("addClass").style.display = "block";
-    document.getElementById("add-class-button").style.display = "none";
+    document.getElementById("addClassButton").style.display = "none";
 }
-
 function closeForm() {
     document.getElementById("form").reset();
     document.getElementById("addClass").style.display = "none";
-    document.getElementById("add-class-button").style.display = "block";
+    document.getElementById("addClassButton").style.display = "block";
 }
     
 var dropdownTrue = true;
 
 function one() {
     document.getElementById("myNavbar").style.height = "360px";
-    document.getElementById("show-nav").style.display = "none";
-    document.getElementById("hide-nav").style.display = "block";
+    document.getElementById("showNav").style.display = "none";
+    document.getElementById("hideNav").style.display = "block";
     setTimeout(function(){
-        document.getElementById("dropdown-content").style.display = "block";
-    }, 250);
-        
+        document.getElementById("dropdownContent").style.display = "block";
+    }, 250);    
 }
-
 function two() {
-    document.getElementById("dropdown-content").style.display = "none";
+    document.getElementById("dropdownContent").style.display = "none";
     document.getElementById("myNavbar").style.height = "100px";
-    document.getElementById("show-nav").style.display = "block";
-    document.getElementById("hide-nav").style.display = "none";
+    document.getElementById("showNav").style.display = "block";
+    document.getElementById("hideNav").style.display = "none";
 }
 
 function dropdown(){
@@ -133,7 +129,5 @@ function dropdown(){
   else two();
   dropdownTrue = !dropdownTrue;
 }
-
 </script>
-    
 </html>
