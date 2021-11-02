@@ -25,14 +25,21 @@
 <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container">
             <a class="navbar-brand logo" href="index.php" style="margin-right: 100px;">
-                <img style="height: 60px;width: 108px;" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">&nbsp;
+                <img style="height: 60px;width: 108px;" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">&nbsp; 
                 <h1 style="font-size: 25px; margin-top: -58px; margin-left: 116px;">TechWise</h1>
                 <h5 style="font-size: 16px; margin-left: 118px; margin-top: -12px; font-weight: 700;">LMS Systems</h5>
-            </a>
+            </a> 
             <div></div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link " href="index.php">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link " href="classes.php">Classes</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link " href="file-manager.php">Files</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link " href="contact-us.php">Contact</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link " href="file-manager.php">Log in</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link " href="contact-us.php">Sign up</a></li>
+                    <!-- <button class="nav-item-spec" role="presentation"><a class="nav-link-spec">LOG IN</a></button>
+                    <button class="nav-item-spec1" role="presentation"><a class="nav-link-spec">SIGN UP</a></button> -->
                 </ul>
             </div>
         </div>
@@ -42,8 +49,15 @@
 <!-- BACKGROUND -->
 
 <video autoplay muted loop id="VidBack">
-  <source src="./img/students-devices.mp4" type="video/mp4"> <!-- importing video -->
+  <source src="./img/students-devices.mp4" type="video/mp4"> 
 </video>
+
+
+<div class="main_title">
+    <h1 class="title">"Student or teacher quote/positive feedback"</h1>
+    <h3 class="sub_title">A classroom portal designed to increase student performance and minimize teacher <br> workload.</h3>
+</div>
+
 
 <!-- BACKGROUND ENDS -->
 <!-- BODY STARTS --> 
