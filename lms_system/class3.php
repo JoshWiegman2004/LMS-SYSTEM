@@ -25,7 +25,7 @@
                 <a href="classes.php">My Classes</a>
                 <a href="class1.php" class="active">Class One</a>
                 <a href="class2.php">Class Two</a>
-                <a href="class3.php">Class Three</a>
+                <a href="class3.php" class="active">Class Three</a>
                 <a href="class4.php">Class Four</a>
             </div>
         </div>
@@ -40,9 +40,9 @@
         </div>
         <div class="textlinks">
             <a href="classes.php">My Classes</a>
-            <a href="class1.php" class="active">Class One</a>
+            <a href="class1.php">Class One</a>
             <a href="class2.php">Class Two</a>
-            <a href="class3.php">Class Three</a>
+            <a href="class3.php" class="active">Class Three</a>
             <a href="class4.php">Class Four</a>
          </div>
     </nav>
@@ -51,9 +51,9 @@
 <body>
  
 <div class="banner">   
-    <div class="banner1">
-        <div class="bannerContent1"></div>
-        <h1>Class One</h1>
+    <div class="banner3">
+        <div class="bannerContent3"></div>
+        <h1>Class Three</h1>
     </div>
 </div>
     

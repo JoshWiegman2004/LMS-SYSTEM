@@ -23,8 +23,8 @@
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
             <div class="dropdownContent" id="dropdownContent"> 
                 <a href="classes.php">My Classes</a>
-                <a href="class1.php" class="active">Class One</a>
-                <a href="class2.php">Class Two</a>
+                <a href="class1.php">Class One</a>
+                <a href="class2.php" class="active">Class Two</a>
                 <a href="class3.php">Class Three</a>
                 <a href="class4.php">Class Four</a>
             </div>
@@ -40,8 +40,8 @@
         </div>
         <div class="textlinks">
             <a href="classes.php">My Classes</a>
-            <a href="class1.php" class="active">Class One</a>
-            <a href="class2.php">Class Two</a>
+            <a href="class1.php">Class One</a>
+            <a href="class2.php" class="active">Class Two</a>
             <a href="class3.php">Class Three</a>
             <a href="class4.php">Class Four</a>
          </div>
@@ -51,9 +51,9 @@
 <body>
  
 <div class="banner">   
-    <div class="banner1">
-        <div class="bannerContent1"></div>
-        <h1>Class One</h1>
+    <div class="banner2">
+        <div class="bannerContent2"></div>
+        <h1>Class Two</h1>
     </div>
 </div>
     

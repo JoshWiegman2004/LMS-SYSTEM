@@ -23,11 +23,11 @@
             </button>
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
             <div class="dropdownContent" id="dropdownContent"> 
-                <a href="classes.html" class="active">My Classes</a>
-                <a href="class1.html">Class One</a>
-                <a href="class2.html">Class Two</a>
-                <a href="class3.html">Class Three</a>
-                <a href="class4.html">Class Four</a>
+                <a href="classes.php" class="active">My Classes</a>
+                <a href="class1.php">Class One</a>
+                <a href="class2.php">Class Two</a>
+                <a href="class3.php">Class Three</a>
+                <a href="class4.php">Class Four</a>
             </div>
         </div>
         <div class="navLogo">
@@ -40,11 +40,11 @@
             </a>
         </div>
         <div class="textlinks">
-            <a href="classes.html" class="active">My Classes</a>
-            <a href="class1.html">Class One</a>
-            <a href="class2.html">Class Two</a>
-            <a href="class3.html">Class Three</a>
-            <a href="class4.html">Class Four</a>
+            <a href="classes.php" class="active">My Classes</a>
+            <a href="class1.php">Class One</a>
+            <a href="class2.php">Class Two</a>
+            <a href="class3.php">Class Three</a>
+            <a href="class4.php">Class Four</a>
          </div>
     </nav>
 </head>
@@ -52,7 +52,7 @@
 <body>
     <div class="content" onclick="closeForm()">
         <div class="classesContainer1">
-            <a class="classesCard" href="class1.html">
+            <a class="classesCard" href="class1.php">
                 <div class="classBanner1">
                     <div class="bannerImg"></div>
                 </div>
@@ -60,7 +60,7 @@
                 <!--<h4 class="classes-subtext">Click here to access this class</h4>-->
 
             </a>
-            <a class="classesCard" href="class2.html">
+            <a class="classesCard" href="class2.php">
                 <div class="classBanner2">
                     <div class="bannerImg"></div>
                 </div>
@@ -68,13 +68,13 @@
             </a>
         </div>
         <div class="classesContainer2">
-            <a class="classesCard" href="class3.html">
+            <a class="classesCard" href="class3.php">
                 <div class="classBanner3">
                     <div class="bannerImg"></div>
                 </div>
                 <h2 class="classesText">Class Three</h2>
             </a>
-            <a class="classesCard" href="class4.html">
+            <a class="classesCard" href="class4.php">
                 <div class="classBanner4">
                     <div class="bannerImg"></div>
                 </div>
@@ -95,7 +95,7 @@
         </form>
     </div>
 </body>
-
+    
 <script>
 function openForm() {
     document.getElementById("addClass").style.display = "block";

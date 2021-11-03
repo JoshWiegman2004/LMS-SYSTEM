@@ -23,10 +23,10 @@
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
             <div class="dropdownContent" id="dropdownContent"> 
                 <a href="classes.php">My Classes</a>
-                <a href="class1.php" class="active">Class One</a>
+                <a href="class1.php">Class One</a>
                 <a href="class2.php">Class Two</a>
                 <a href="class3.php">Class Three</a>
-                <a href="class4.php">Class Four</a>
+                <a href="class4.php" class="active">Class Four</a>
             </div>
         </div>
         <div class="navLogo">
@@ -40,10 +40,10 @@
         </div>
         <div class="textlinks">
             <a href="classes.php">My Classes</a>
-            <a href="class1.php" class="active">Class One</a>
+            <a href="class1.php">Class One</a>
             <a href="class2.php">Class Two</a>
             <a href="class3.php">Class Three</a>
-            <a href="class4.php">Class Four</a>
+            <a href="class4.php" class="active">Class Four</a>
          </div>
     </nav>
 </head>
@@ -51,9 +51,9 @@
 <body>
  
 <div class="banner">   
-    <div class="banner1">
-        <div class="bannerContent1"></div>
-        <h1>Class One</h1>
+    <div class="banner4">
+        <div class="bannerContent4"></div>
+        <h1>Class Four</h1>
     </div>
 </div>
     
