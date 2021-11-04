@@ -15,10 +15,10 @@
     <nav class="navbar" id="myNavbar">
         <div class="dropdown">
             <button class="showNav" id="showNav" onclick="dropdown();">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png"/>
+                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" alt="Hamburger button to open dropdown navbar"/>
             </button>
             <button class="hideNav" id="hideNav" onclick="dropdown();">
-                <img src="unnamed.png" height="45px" width="45px"/>
+                <img src="unnamed.png" height="45px" width="45px" alt="Cross button to close dropdown navbar"/>
             </button>
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
             <div class="dropdownContent" id="dropdownContent"> 
@@ -31,7 +31,7 @@
         </div>
         <div class="navLogo">
             <a href="index.php">
-                <img class="logoImage" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
+                <img class="logoImage" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png" alt="Techwise Logo">
                 <div class="navLogoText">
                     TechWise
                     <h5>TeacherPortal</h5>
@@ -58,8 +58,8 @@
 </div>
     
 <div class="filter">
-    <a href="#" id="tasks" onclick="tasks();">Tasks <img src="img/black-circle-close-button-png-5.png" id="taskBtn"></a>
-    <a href="#" id="announcements" onclick="announcements();">Announcements <img src="img/black-circle-close-button-png-5.png" id="annBtn"></a>
+    <a href="#" id="tasks" onclick="tasks();">Tasks <img src="img/black-circle-close-button-png-5.png" id="taskBtn" alt="Cross button to filter out task posts"></a>
+    <a href="#" id="announcements" onclick="announcements();">Announcements <img src="img/black-circle-close-button-png-5.png" id="annBtn" alt="Cross button to filter out announcement posts"></a>
     
     <div class="sorting">
         <form class="sort" action="/action_page.php">

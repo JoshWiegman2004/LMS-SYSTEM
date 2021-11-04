@@ -16,10 +16,10 @@
     <nav class="navbar" id="myNavbar">
         <div class="dropdown">
             <button class="showNav" id="showNav" onclick="dropdown();">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png"/>
+                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" alt="Hamburger button to open dropdown navbar"/>
             </button>
             <button class="hideNav" id="hideNav" onclick="dropdown();">
-                <img src="unnamed.png" height="45px" width="45px"/>
+                <img src="unnamed.png" height="45px" width="45px" alt="Cross button to close dropdown navbar"/>
             </button>
             <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
             <div class="dropdownContent" id="dropdownContent"> 
