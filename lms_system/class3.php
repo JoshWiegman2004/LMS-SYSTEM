@@ -97,6 +97,18 @@
 </div>
 </body>
 
+<footer>
+    <div class="footer">
+        <p><a href="https://www.shutterstock.com/g/mushan">mushan</a>, “Kowhaiwhai Patterns”, via <a href="https://www.shutterstock.com/image-vector/kowhaiwhai-patterns-151532972">www.shutterstock.com</a></p>
+        <br>
+        <p><a href="https://www.shutterstock.com/g/beccatiana">Rebecca_Tiana</a>, “Kowhai Flower Seamless Pattern, New Zealand Spring Flower”, via <a href="https://www.shutterstock.com/image-vector/kowhai-flower-seamless-pattern-new-zealand-2009683892">www.shutterstock.com</a></p>
+        <br>
+        <p><a href="https://www.shutterstock.com/g/LosAngeles">Los Angeles</a>, “Green fern leaves seamless pattern”, via <a href="https://www.shutterstock.com/image-vector/green-fern-leaves-seamless-pattern-vector-506313004">www.shutterstock.com</a></p>
+        <br>
+        <p><a href="https://www.shutterstock.com/g/sakchai0023">Sakchai.K</a>, “new zealand flag, seamless pattern. vector background”, via <a href="https://www.shutterstock.com/image-vector/new-zealand-flag-seamless-pattern-vector-1901976118">www.shutterstock.com</a></p>
+    </div>
+</footer>
+
 <script>
 var buttonTrue = true;
     

@@ -294,7 +294,7 @@ body {
 
 .classesPlusIcon {
     position: fixed;
-    bottom: 70px;
+    bottom: 100px;
     right: 25px;
     width: 50px;
     height: 50px;
@@ -625,16 +625,27 @@ body {
 ----------------------------------------------------------------*/
 
 .footer, .footer-classes{
-   left: 0;
-   bottom: 0;
+    left: 0;
+    bottom: 0;
     margin-bottom: 0px;
-   width: 100%;
-   background-color: #666;
-   color: white;
-   text-align: center;
-    height: 50px;
+    width: 100%;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    height: 86px;
 }
 
 .footer-classes{
     position: fixed;
+}
+
+.footer p, .footer-classes p{
+    margin-top: 2px;
+    margin-bottom: -20px;
+    font-size: 15px;
+}
+
+.footer a, .footer-classes a{
+    color: lightblue;
+    font-style: italic;
 }
