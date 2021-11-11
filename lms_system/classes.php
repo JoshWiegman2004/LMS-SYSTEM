@@ -12,43 +12,42 @@
     <link rel="icon" type="image/png" sizes="1025x575" href="assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
     <link rel="icon" type="image/png" sizes="1025x575" href="assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
     <link rel="stylesheet" href="../assets/css/classes.css">
+</head>
     
-    <nav class="navbar" id="myNavbar">
-        <div class="dropdown">
-            <button class="showNav" id="showNav" onclick="dropdown();">
-                <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" alt="Hamburger button to open dropdown navbar"/>
-            </button>
-            <button class="hideNav" id="hideNav" onclick="dropdown();">
-                <img src="unnamed.png" height="45px" width="45px" alt="Cross button to close dropdown navbar"/>
-            </button>
-            <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
-            <div class="dropdownContent" id="dropdownContent"> 
-                <a href="classes.php" class="active">My Classes</a>
-                <a href="class1.php">Class One</a>
-                <a href="class2.php">Class Two</a>
-                <a href="class3.php">Class Three</a>
-                <a href="class4.php">Class Four</a>
-            </div>
-        </div>
-        <div class="navLogo">
-            <a href="index.php">
-                <img class="logoImage" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
-                <div class="navLogoText">
-                    TechWise
-                    <h5>TeacherPortal</h5>
-                </div>
-            </a>
-        </div>
-        <div class="textlinks">
+<nav class="navbar" id="myNavbar">
+    <div class="dropdown">
+        <button class="showNav" id="showNav" onclick="dropdown();">
+            <img src="https://d1qmdf3vop2l07.cloudfront.net/chartreuse-pig.cloudvent.net/hash-store/cc6de870e68a487e3750ef53cd15ae3f.png" height="42px" width="49px" data-cms-original-src="Menu_Bar-512.png" alt="Hamburger button to open dropdown navbar"/>
+        </button>
+        <button class="hideNav" id="hideNav" onclick="dropdown();">
+            <img src="unnamed.png" height="45px" width="45px" alt="Cross button to close dropdown navbar"/>
+        </button>
+        <!--Dropdown Content. This will be hidden until the Hamburger Button is hovered over.-->
+        <div class="dropdownContent" id="dropdownContent">                 
             <a href="classes.php" class="active">My Classes</a>
             <a href="class1.php">Class One</a>
             <a href="class2.php">Class Two</a>
             <a href="class3.php">Class Three</a>
             <a href="class4.php">Class Four</a>
-         </div>
-    </nav>
-</head>
-
+        </div>
+    </div>
+    <div class="navLogo">
+        <a href="index.php">
+            <img class="logoImage" src="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png" alt="Techwise Logo">
+            <div class="navLogoText">
+                TechWise
+                <h5>TeacherPortal</h5>
+            </div>
+        </a>
+    </div>
+    <div class="textlinks">
+        <a href="classes.php" class="active">My Classes</a>
+        <a href="class1.php">Class One</a>
+        <a href="class2.php">Class Two</a>
+        <a href="class3.php">Class Three</a>
+        <a href="class4.php">Class Four</a>
+        </div>
+</nav>
 <body>
     <div class="content" onclick="closeForm()">
         <div class="classesContainer1">
@@ -87,7 +86,7 @@
     
     <div class="formPopup" id="addClass">
         <form action="/classes.php" class="formContainer" id="form" autocomplete="off">
-            <label for="psw"><b>Invite Code</b></label>
+            <label><b>Invite Code</b></label>
             <br>
             <input type="text" placeholder="Enter class code" name="classCode" required>
             <button type="submit" class="formButton">Enter</button>
@@ -96,8 +95,7 @@
     </div>
 </body>
 
-<footer>
-    <div class="footer-classes">
+<div class="footer-classes">
         <p><a href="https://www.shutterstock.com/g/mushan">mushan</a>, “Kowhaiwhai Patterns”, via <a href="https://www.shutterstock.com/image-vector/kowhaiwhai-patterns-151532972">www.shutterstock.com</a></p>
         <br>
         <p><a href="https://www.shutterstock.com/g/beccatiana">Rebecca_Tiana</a>, “Kowhai Flower Seamless Pattern, New Zealand Spring Flower”, via <a href="https://www.shutterstock.com/image-vector/kowhai-flower-seamless-pattern-new-zealand-2009683892">www.shutterstock.com</a></p>
@@ -105,8 +103,7 @@
         <p><a href="https://www.shutterstock.com/g/LosAngeles">Los Angeles</a>, “Green fern leaves seamless pattern”, via <a href="https://www.shutterstock.com/image-vector/green-fern-leaves-seamless-pattern-vector-506313004">www.shutterstock.com</a></p>
         <br>
         <p><a href="https://www.shutterstock.com/g/sakchai0023">Sakchai.K</a>, “new zealand flag, seamless pattern. vector background”, via <a href="https://www.shutterstock.com/image-vector/new-zealand-flag-seamless-pattern-vector-1901976118">www.shutterstock.com</a></p>
-    </div>
-</footer>
+</div>
     
 <script>
 function openForm() {

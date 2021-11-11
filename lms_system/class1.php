@@ -61,14 +61,30 @@
     <a href="#" id="tasks" onclick="tasks();">Tasks <img src="img/black-circle-close-button-png-5.png" id="taskBtn" alt="Cross button to filter out task posts"></a>
     <a href="#" id="announcements" onclick="announcements();">Announcements <img src="img/black-circle-close-button-png-5.png" id="annBtn" alt="Cross button to filter out announcement posts"></a>
     
+    
+    <?php
+    $sort = "dueNew";
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      $sort = test_input($_POST["sort"]);
+    }
+
+    function test_input($data) {
+      $data = trim($data);
+      $data = stripslashes($data);
+      $data = htmlspecialchars($data);
+      return $data;
+    }
+    ?>
+
     <div class="sorting">
-        <form class="sort" action="/action_page.php">
+        <form class="sort" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <label for="sort">Sort By:</label>
             <select name="sort" id="sort">
-                <option value="dueNew">Date Due (Newest to Oldest)</option>
-                <option value="dueOld">Date Due (Oldest to Newest)</option>
-                <option value="assignNew">Date Assigned(Newest to Oldest)</option>
-                <option value="assignOld">Date Assigned(Oldest to Newest)</option>
+                <option id="dueNew" value="dueNew">Date Due (Newest to Oldest)</option>
+                <option id="dueOld" value="dueOld">Date Due (Oldest to Newest)</option>
+                <option id="assignNew" value="assignNew">Date Assigned(Newest to Oldest)</option>
+                <option id="assignOld" value="assignOld">Date Assigned(Oldest to Newest)</option>
             </select>
             <input type="submit">
         </form>
@@ -110,6 +126,23 @@
 </footer>
 
 <script>
+var sort = <?php echo json_encode($sort, JSON_HEX_TAG); ?>;
+
+switch (sort){
+    case 'dueNew':
+        document.getElementById("dueNew").selected = true;
+        break;
+    case 'dueOld':
+        document.getElementById("dueOld").selected = true;
+        break;
+    case 'assignNew':
+        document.getElementById("assignNew").selected = true;
+        break;
+    case 'assignOld':
+        document.getElementById("assignOld").selected = true;
+        break;
+}
+    
 var buttonTrue = true;
     
 function complete1show(){
