@@ -93,20 +93,26 @@
   
 <div class="stream">
     <div class="post" id="task">
-        <h1>Task</h1>
-        <div class="date"><div class="left">Assigned: 12th Oct</div><div class="right">Due: 24th Oct</div></div>
+        <h1 id="taskTitle1">Task</h1>
+        <div class="date">
+            <div class="left" id="assign1">Assigned: 12th Oct</div>
+            <div class="right" id="due1">Due: 24th Oct</div></div>
         <button id="postBtn1" onclick="complete1();" title="Mark as Complete">✖</button>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
     <div class="post" id="announcement">
-        <h1>Announcement</h1>
-        <div class="date">Posted: 16th Oct</div>
+        <h1 id="taskTitle2">Announcement</h1>
+        <div class="date">
+            <div class="left" id="assign2">Posted: 16th Oct</div>
+            <div class="right" id="due2"></div></div>
         <button id="postBtn2" onclick="complete2();">✖</button>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
     <div class="post" id="task2">
-        <h1>Task</h1>
-        <div class="date"><div class="left">Assigned: 22nd Oct</div><div class="right">Due: 28th Oct</div></div>
+        <h1 id="taskTitle3">Task</h1>
+        <div class="date">
+            <div class="left" id="assign3">Assigned: 22nd Oct</div>
+            <div class="right" id="due3">Due: 28th Oct</div></div>
         <button id="postBtn3" onclick="complete3();">✖</button>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
@@ -130,15 +136,49 @@ var sort = <?php echo json_encode($sort, JSON_HEX_TAG); ?>;
 
 switch (sort){
     case 'dueNew':
+        document.getElementById("taskTitle1").innerHTML = 'Task';
+        document.getElementById("assign1").innerHTML = 'Assigned: 22nd Oct';
+        document.getElementById("due1").innerHTML = 'Due: 28th Oct';
+        document.getElementById("taskTitle2").innerHTML = 'Task';
+        document.getElementById("assign2").innerHTML = 'Assigned: 12th Oct';
+        document.getElementById("due2").innerHTML = 'Due: 24th Oct';
+        document.getElementById("taskTitle3").innerHTML = 'Announcement';
+        document.getElementById("assign3").innerHTML = 'Posted: 16th Oct';
+        document.getElementById("due3").innerHTML = ''; 
         document.getElementById("dueNew").selected = true;
         break;
     case 'dueOld':
+        document.getElementById("taskTitle1").innerHTML = 'Announcement';
+        document.getElementById("assign1").innerHTML = 'Posted: 16th Oct';
+        document.getElementById("due1").innerHTML = '';
+        document.getElementById("taskTitle2").innerHTML = 'Task';
+        document.getElementById("assign2").innerHTML = 'Assigned: 12th Oct';
+        document.getElementById("due2").innerHTML = 'Due: 24th Oct';
+        document.getElementById("taskTitle3").innerHTML = 'Task';
+        document.getElementById("assign3").innerHTML = 'Assigned: 22nd Oct';
+        document.getElementById("due3").innerHTML = 'Due: 28th Oct'; 
         document.getElementById("dueOld").selected = true;
         break;
     case 'assignNew':
+        document.getElementById("taskTitle1").innerHTML = 'Task';
+        document.getElementById("assign1").innerHTML = 'Assigned: 12th Oct';       document.getElementById("due1").innerHTML = 'Due: 24th Oct';
+        document.getElementById("taskTitle2").innerHTML = 'Announcement';
+        document.getElementById("assign2").innerHTML = 'Posted: 16th Oct';
+        document.getElementById("due2").innerHTML = '';
+        document.getElementById("taskTitle3").innerHTML = 'Task';
+        document.getElementById("assign3").innerHTML = 'Assigned: 22nd Oct';
+        document.getElementById("due3").innerHTML = 'Due: 28th Oct';
         document.getElementById("assignNew").selected = true;
         break;
     case 'assignOld':
+        document.getElementById("taskTitle1").innerHTML = 'Task';
+        document.getElementById("assign1").innerHTML = 'Assigned: 22nd Oct';       document.getElementById("due1").innerHTML = 'Due: 28th Oct';
+        document.getElementById("taskTitle2").innerHTML = 'Announcement';
+        document.getElementById("assign2").innerHTML = 'Posted: 16th Oct';
+        document.getElementById("due2").innerHTML = '';
+        document.getElementById("taskTitle3").innerHTML = 'Task';
+        document.getElementById("assign3").innerHTML = 'Assigned: 12th Oct';
+        document.getElementById("due3").innerHTML = 'Due: 24th Oct';
         document.getElementById("assignOld").selected = true;
         break;
 }
