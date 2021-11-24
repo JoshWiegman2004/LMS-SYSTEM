@@ -528,6 +528,7 @@ body {
     margin-left: 10px;
 }
 
+/* changes the effect as the user hovers over the button */
 .sort input:hover{
     cursor: pointer;
     background: #eee;
@@ -624,6 +625,7 @@ body {
                             Footer
 ----------------------------------------------------------------*/
 
+/*footer section*/
 .footer, .footer-classes{
     left: 0;
     bottom: 0;
@@ -645,6 +647,7 @@ body {
     font-size: 15px;
 }
 
+/* different colours for links*/
 .footer a, .footer-classes a{
     color: lightblue;
     font-style: italic;
