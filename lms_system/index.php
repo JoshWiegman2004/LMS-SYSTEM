@@ -18,7 +18,19 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="../assets/css/style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
+<div class="loader-wrapper" style="z-index: 2147483647;">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+<script>
+    $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+    });
+</script>
+
 <!-- HEADER ENDS -->
 <!-- NAVBAR STARTS -->
 
@@ -36,10 +48,8 @@
                     <li class="nav-item" role="presentation"><a class="nav-link " href="classes.php">Classes</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link " href="file-manager.php">Files</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link " href="contact-us.php">Contact</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link " href="file-manager.php">Log in</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link " href="contact-us.php">Sign up</a></li>
-                    <!-- <button class="nav-item-spec" role="presentation"><a class="nav-link-spec">LOG IN</a></button>
-                    <button class="nav-item-spec1" role="presentation"><a class="nav-link-spec">SIGN UP</a></button> -->
+                    <button class="nav-item-spec" role="presentation"><a class="nav-link-spec">LOG IN</a></button>
+                    <button class="nav-item-spec1" role="presentation"><a class="nav-link-spec">SIGN UP</a></button> 
                 </ul>
             </div>
         </div>
@@ -64,6 +74,17 @@
 
 <body>
 
+    <div class="body_main">
+        <img class="img-thumbnail" src="img/classroom.png"></img>
+        <h2 class="body_title_main">Classroom integration</h2>
+        <p class="body_para_main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non enim commodo, finibus magna vitae, suscipit mi. Donec consectetur ex vel aliquam malesuada. Morbi ac augue laoreet, dignissim est sit amet, sagittis metus. Fusce ullamcorper leo in est congue, vitae consequat tellus tincidunt. Pellentesque pretium pharetra dolor in sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque finibus enim in consequat. Ut viverra quis dui a gravida. Sed urna ante, rhoncus vel aliquam non, tincidunt non purus.
+                                <br>
+                                <br>
+                                In imperdiet, felis eu hendrerit tincidunt, odio ante efficitur massa, nec tincidunt nisi nunc scelerisque neque. Nunc commodo eget mauris nec rhoncus. Nam ullamcorper tellus eget nisl interdum posuere. Nulla non cursus nibh, et volutpat arcu. Praesent sapien quam, fermentum non tempor id, auctor eu enim. Nulla facilisis, dolor sit amet ultricies ornare, mi risus mollis diam, a posuere risus ex id mi. Morbi odio arcu, porta id posuere et, viverra eu ante. Cras sit amet feugiat velit. Ut sed pellentesque quam. Curabitur egestas arcu nec maximus vulputate. Aenean nisl eros, venenatis et nunc eget, malesuada volutpat
+                                <br>
+                                <br>
+                                Etiam at efficitur enim, et ullamcorper ligula. Nullam feugiat eros sit amet porta consequat. Vivamus rhoncus tellus sed orci porta posuere. Donec vitae dui in quam tincidunt interdum eu eget risus. Mauris pulvinar maximus dui vel lacinia. Donec gravida consectetur varius. Phasellus in felis et ex blandit commodo. Aenean ut lacus in elit bibendum euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    </div>
 
 </body>
 
@@ -71,6 +92,7 @@
 <!-- FOOTER/LINKS START -->
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="../assets/js/script.js"></script>
+  <script src="../assets/js/script.js"></script>
 
 <!-- FOOTER ENDS -->
 
