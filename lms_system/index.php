@@ -48,7 +48,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link " href="classes.php">Classes</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link " href="file-manager.php">Files</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link " href="contact-us.php">Contact</a></li>
-                    <button class="nav-item-spec" role="presentation"><a class="nav-link-spec">LOG IN</a></button>
+                    <button class="nav-item-spec" role="presentation"><a class="nav-link-spec" href="login.php">LOG IN</a></button>
                     <button class="nav-item-spec1" role="presentation"><a class="nav-link-spec">SIGN UP</a></button> 
                 </ul>
             </div>
@@ -62,11 +62,49 @@
   <source src="./img/students-devices.mp4" type="video/mp4"> 
 </video>
 
-
+<div class="slideshow-container">
 <div class="main_title">
-    <h1 class="title">"Student or teacher quote/positive feedback"</h1>
+    <h1 class="title">"So easy to set up and implement in my school!"</h1>
     <h3 class="sub_title">A classroom portal designed to increase student performance and minimize teacher <br> workload.</h3>
 </div>
+
+<div class="main_title">
+    <h1 class="title">"An incredibly easy system for both staff and students."</h1>
+    <h3 class="sub_title">A classroom portal designed to increase student performance and minimize teacher <br> workload.</h3>
+</div>
+
+<div class="main_title">
+    <h1 class="title">"So many kids love this system, it's fun and interactive!"</h1>
+    <h3 class="sub_title">A classroom portal designed to increase student performance and minimize teacher <br> workload.</h3>
+</div>
+
+<div class="main_title">
+    <h1 class="title">"No matter what device or age, this tool has you sorted."</h1>
+    <h3 class="sub_title">A classroom portal designed to increase student performance and minimize teacher <br> workload.</h3>
+</div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("main_title");
+  var dots =   document.getElementsByClassName("dot");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+
+  slideIndex++;
+  
+  if (slideIndex > slides.length) {slideIndex = 1}
+
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
 
 
 <!-- BACKGROUND ENDS -->
@@ -77,13 +115,12 @@
     <div class="body_main">
         <img class="img-thumbnail" src="img/classroom.png"></img>
         <h2 class="body_title_main">Classroom integration</h2>
-        <p class="body_para_main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non enim commodo, finibus magna vitae, suscipit mi. Donec consectetur ex vel aliquam malesuada. Morbi ac augue laoreet, dignissim est sit amet, sagittis metus. Fusce ullamcorper leo in est congue, vitae consequat tellus tincidunt. Pellentesque pretium pharetra dolor in sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque finibus enim in consequat. Ut viverra quis dui a gravida. Sed urna ante, rhoncus vel aliquam non, tincidunt non purus.
-                                <br>
-                                <br>
-                                In imperdiet, felis eu hendrerit tincidunt, odio ante efficitur massa, nec tincidunt nisi nunc scelerisque neque. Nunc commodo eget mauris nec rhoncus. Nam ullamcorper tellus eget nisl interdum posuere. Nulla non cursus nibh, et volutpat arcu. Praesent sapien quam, fermentum non tempor id, auctor eu enim. Nulla facilisis, dolor sit amet ultricies ornare, mi risus mollis diam, a posuere risus ex id mi. Morbi odio arcu, porta id posuere et, viverra eu ante. Cras sit amet feugiat velit. Ut sed pellentesque quam. Curabitur egestas arcu nec maximus vulputate. Aenean nisl eros, venenatis et nunc eget, malesuada volutpat
-                                <br>
-                                <br>
-                                Etiam at efficitur enim, et ullamcorper ligula. Nullam feugiat eros sit amet porta consequat. Vivamus rhoncus tellus sed orci porta posuere. Donec vitae dui in quam tincidunt interdum eu eget risus. Mauris pulvinar maximus dui vel lacinia. Donec gravida consectetur varius. Phasellus in felis et ex blandit commodo. Aenean ut lacus in elit bibendum euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        <p class="body_para_main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non enim commodo, finibus magna vitae, suscipit mi. Donec consectetur ex vel aliquam malesuada. Morbi ac augue laoreet, dignissim est sit amet, sagittis metus. Fusce ullamcorper leo in est congue, vitae consequat tellus tincidunt. Pellentesque pretium pharetra dolor in sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque finibus enim in consequat. Ut viverra quis dui a gravida. Sed urna ante, rhoncus vel aliquam non, tincidunt non purus.</p>
+    </div>
+
+    <div class="body_main_2">
+        <h2 class="body_title_main_2">Easy Setup</h2>
+        <p class="body_para_main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non enim commodo, finibus magna vitae, suscipit mi. Donec consectetur ex vel aliquam malesuada. Morbi ac augue laoreet, dignissim est sit amet, sagittis metus. Fusce ullamcorper leo in est congue, vitae consequat tellus tincidunt. Pellentesque pretium pharetra dolor in sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque finibus enim in consequat. Ut viverra quis dui a gravida. Sed urna ante, rhoncus vel aliquam non, tincidunt non purus.</p>
     </div>
 
 </body>
@@ -91,9 +128,11 @@
 <!-- BODY ENDS -->
 <!-- FOOTER/LINKS START -->
 
+<?php include('footer.php'); ?>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="../assets/js/script.js"></script>
   <script src="../assets/js/script.js"></script>
-
+    
 <!-- FOOTER ENDS -->
 
 
