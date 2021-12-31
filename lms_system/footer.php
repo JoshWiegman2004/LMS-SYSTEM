@@ -1,6 +1,6 @@
 <?php
  echo '
-    <footer class="page-footer dark footer_main" >
+    <footer class="page-footer dark footer_main_home" >
         <div class="container">
             <div class="row">
                 <div class="col">

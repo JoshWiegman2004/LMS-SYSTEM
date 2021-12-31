@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
 
+<html lang="en" >
 <head>
+    <meta charset="UTF-8">
+    <title>Techwise LMS</title>
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
     <link rel="manifest" href="../assets/img/favicons/site.webmanifest">
     <link rel="mask-icon" href="../assets/img/favicons/safari-pinned-tab.svg" color="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Contact Us - Techwise</title>
-    <meta name="description" content="Video tutorials for those who need them. Set up all kinds of social media and video chatting programs through easy video tutorials! ">
-    <link rel="icon" type="image/png" sizes="16x8" href="../assets/img/rsz_2326b559-520a-4bff-ad0c-f585ab4b1ddc_1.png">
-    <link rel="icon" type="image/png" sizes="32x18" href="../assets/img/rsz_2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
-    <link rel="icon" type="image/png" sizes="1025x575" href="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
-    <link rel="icon" type="image/png" sizes="1025x575" href="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
-    <link rel="icon" type="image/png" sizes="1025x575" href="../assets/img/2326b559-520a-4bff-ad0c-f585ab4b1ddc.png">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="../assets/css/smoothproducts.css">
+    <link rel="stylesheet" href="../assets/css/dark-mode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
+
+<div class="loader-wrapper" style="z-index: 2147483647;">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+<script>
+    $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+    });
+</script>
 
 <body>
     <!-- NAVBAR STARTS -->
@@ -45,7 +50,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link " href="file-manager.php">Files</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link " href="contact-us.php">Contact</a></li>
                     <button class="nav-item-spec" role="presentation"><a class="nav-link-spec" href="login.php">LOG IN</a></button>
-                    <button class="nav-item-spec1" role="presentation"><a class="nav-link-spec">SIGN UP</a></button> 
+                    <button class="nav-item-spec1" role="presentation"><a class="nav-link-spec" href="register.php">SIGN UP</a></button> 
                 </ul>
             </div>
         </div>
@@ -56,8 +61,8 @@
         <section class="clean-block clean-form dark">
             <div class="container">
                 <div class="block-heading">
-                    <h1 class="text-info">Contact Us</h1>
-                    <p class="contact-text">Can't find what you're looking for? Feel like you need more information? Contact us! But before you do that, check out our&nbsp;<a href="faq.php">FAQ page</a></p>
+                    <h2 class="text-info">Contact Us</h1>
+                    <p class="contact-text">Can't find what you're looking for? Feel like you need more information? Contact us! But before you do that, check out our&nbsp;<a href="../../faq.php">FAQ page</a></p>
                 </div>
                 <form data-bss-recipient="f16f4f2857049be592bb219a4d6c6a79" data-bss-subject="Contact HelpMe">
                     <div class="form-group"><label>Name</label><input class="form-control" type="text"></div>
@@ -77,7 +82,7 @@
             </div>
         </section>
     </main>
-    <footer class="page-footer dark footer_main_contact" >
+    <footer class="page-footer dark footer_main" >
         <div class="container">
             <div class="row">
                 <div class="col">

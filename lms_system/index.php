@@ -49,7 +49,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link " href="file-manager.php">Files</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link " href="contact-us.php">Contact</a></li>
                     <button class="nav-item-spec" role="presentation"><a class="nav-link-spec" href="login.php">LOG IN</a></button>
-                    <button class="nav-item-spec1" role="presentation"><a class="nav-link-spec">SIGN UP</a></button> 
+                    <button class="nav-item-spec1" role="presentation"><a class="nav-link-spec" href="register.php">SIGN UP</a></button> 
                 </ul>
             </div>
         </div>
@@ -110,7 +110,7 @@ function showSlides() {
 <!-- BACKGROUND ENDS -->
 <!-- BODY STARTS --> 
 
-<body>
+<body class="body-main">
 
     <div class="body_main">
         <img class="img-thumbnail" src="img/classroom.png"></img>
