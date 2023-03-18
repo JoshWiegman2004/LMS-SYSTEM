@@ -1,60 +1,654 @@
+/*--------------------------------------------------------------
+                            General
+----------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* Links for importing the fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700;900&display=swap');
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #F0F1F2;
+
+body {
+    margin-top: 150px;
     font-family: "Montserrat", sans-serif;
+    background: #fff;
 }
 
-.container{
-    position: relative;
-    width: 900px;
-    display: flex;
-    justify-content: space-around;
+/*--------------------------------------------------------------
+                        Navigation Bar
+----------------------------------------------------------------*/
+
+.navbar {
+	background-color: #fff;
+	position: fixed; /* Holds navigation bar at the top of the website */
+	top: 0;
+	width: 100%;
+	z-index: 2;
+    border-bottom: 3px solid #346DEA;
+    height: 100px;
+    transition: 0.3s;
 }
-.container .card{
-    position: relative;
-    width: 250px;
-    background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+.textlinks{
+    padding-right: 20px;
+    float: right;
+}
+.textlinks a {
+	color: #777;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 35px 16px;
+	text-align: center;
+	text-decoration: none;
+    transition: 0.3s;
+}
+.dropdownContent a:hover, .navbar a:hover { /* changes the appearance of the text when the cursor hovers over it, turning it black and adding a text shadow */
+	color: #000;
+    transform: translateY(-2px);
+    text-shadow: 0 12px 10px rgba(0, 0, 0, 0.075);
+}
+.navbar .active, .textlinks .active{
+    color: #000;
+}
+
+/* Navbar Logo */
+
+.navLogo{
+    float: left;
+    display: block;
+    padding: 10px, 0px, 0px, 10px;
+	margin-bottom: 0;
+}
+.logoImage{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px, 0px, 0px, 10px;
+    height: 50px;
+    width: 88px;
+}
+.navLogoText{
+    top: 0;
+    float: right;
+    display: block;
+    font-size: 25px;
+    color: #000;
+    padding: none;
+    margin-top: 20px;
+    text-align: center;
+}
+.navLogoText h5{
+    font-size: 16px;
+    margin-top: 10px;
+    padding: none;
+    font-weight: 700;
+}
+
+/* Dropdown Icons */
+
+.navbar .showNav {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.navbar .hideNav{
+    margin-top: 11px;
+    margin-right: 20px;
+    font-size: 60px;
+}
+.showNav, .hideNav{
+    background-color: rgba(0,0,0,0);
+    border: none;
+	display: none;
+    cursor: pointer;
+    transition: 0.3s;
+    float: right;
+}
+.showNav:hover, .hideNav:hover{
+    transform: translateY(-3px);
+}
+
+/* Dropdown Menu*/
+
+.dropdownContent {
+    margin-top: 100px;
+	display: none;
+	position: fixed;
+	top: 0;
+	background-color: #346DEA;
+	z-index: 0;
+    align-items: center;
+    overflow-y: hidden;
+    transition: 0.5s;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.dropdownContent a {
+	float: center;
+    background: #fff;
+	color: #777;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 24px;
+    transition: 0.5s;
+}
+.dropdownContent a:hover{ /* changes the appearance of the link when the cursor hovers over it, translating it upwards which reveals the blue background underneath */
+    transform: translateY(-4px);
+}
+
+/* Media Queries */
+
+@media screen and (max-width:915px) { /* when the screen gets below the width of 915px, the links disappear and the humburger button appears*/
+	.textlinks a:not(.active) {
+		display: none; /* links disappear */
+	}
+	.navbarlogo {
+		float: right;
+		display: block;
+	}
+	.showNav {
+		float: right;
+		display: block; /* button disappear */
+	}
+	.textlinks .active {
+		float: right;
+	}
+}
+@media screen and (min-width:915px) {
+    .showNav, .hideNav, .dropdownContent{
+        display: none !important; /* this bit of code ensures that when the screen returns to normal size, the buttons stay hidden. by using the !important tag, it overrules the other code that it tells it to stay open */
+	}
+    .navbar{
+        height: 100px !important;
+    }
+}
+
+
+/*--------------------------------------------------------------
+                        Classes Cards
+----------------------------------------------------------------*/
+
+ /* here we use two separate containers to split the first and last two classes on to separate lines. Otherwise they would overlap with each other */
+.classesContainer1, .classesContainer2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    transition: 0.5;
+    margin-top: 20px;
+}
+
+/* this ensure that the cards don't overlap with the navigation bar */
+.classesContainer1{
+    margin-top: 100px; 
+}
+
+.classesCard { /* class for each individual card */
+    position: relative;
+    display: block;
+    width: 30%;
+    background: linear-gradient(0deg, #f0f1f2, #e0e1e2);
     height: 300px;
     border-radius: 4px;
     text-align: center;
-    overflow: hidden;
     transition: 0.5s;
-}
-.container .card:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0,0,0,.5);
-    
-}
-.container .card:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 100%;
-    height: 100%;
-    background: rgba(255,255,255,.03);
-    pointer-events: none;
+    cursor: pointer;
+    text-decoration: none;
     z-index: 1;
+    margin-left: 20px;
 }
 
-.card:hover .text{
-    color:#fff
+/* changes the width of the cards when the screen size is reduced, ensuring that the content doesn't break and go outside the box */
+@media screen and (max-width:800px){
+    .classesCard {
+            width: 40%;
+    }
 }
-.text{
+
+.bannerImg{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-repeat: repeat;
+}
+/* with the opacity and repeat properties, we create an endless banner that can be overlayed with a colour */
+
+/* here, there is a class for each banner, and each one has its on image. the sizes are different for each image and so the sizes are manually entered here as well */
+.classBanner1 .bannerImg{
+    background-image: url(../../lms_system/img/maori_pattern.jpg);
+    background-size: 244px 76px;
+}
+.classBanner2 .bannerImg{
+    background-image: url(../../lms_system/img/kowhai_pattern.png);
+    background-size: 250px 175px;
+}
+.classBanner3 .bannerImg{
+    background-image: url(../../lms_system/img/fern_pattern.jpg);
+    background-size: 250px 250px;
+}
+.classBanner4 .bannerImg{
+    background-image: url(../../lms_system/img/nz_flag.jpg);
+    background-size: 400px 400px;
+}
+
+/* the same thing goes for the colours of each banner */
+.classBanner1{
+    background-color:#a64444; /* red */
+}
+.classBanner2{
+    background-color: #e3d324; /* yellow */
+}
+.classBanner3{
+    background-color: #80a644; /* green */
+}
+.classBanner4{
+    background-color:#4487a6; /* blue */
+}
+    
+.classBanner1, .classBanner2, .classBanner3, .classBanner4{
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+
+.classesCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+.classesCard:hover .classesText {
+    color: #000;
+}
+
+.classesText {
     position: relative;
     color: #777;
-    margin-top: 20px;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 28px;
     letter-spacing: 1px;
     transition: 0.5s;
+    padding-top: 20px;
+}
+
+.classesSubtext {
+    position: relative;
+  color: #888;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+/* changes the width of the cards when the screen size is reduced, ensuring that the content doesn't break and go outside the box */
+@media screen and (max-width:1000px) {
+    .classesContainer1, .classesContainer2 {
+        width: auto;
+    }
+}
+
+
+/*--------------------------------------------------------------
+                        "Add Class" Function
+----------------------------------------------------------------*/
+
+
+.classesPlusIcon {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 30px;
+    text-decoration: bold;
+    text-align: center;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.1);
+    background: #237ee0;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.classesPlusIcon:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* The popup form */
+.formPopup {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    z-index: 3;
+    margin: center;
+    box-shadow: 0px 0px 1px 5000px rgba(0,0,0,0.35);
+}
+
+/* Styles to the form container */
+.formContainer {
+  /*max-width: 300px;*/
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    position: fixed;
+    right: 33%;
+    top: 45%;
+}
+
+/* Full-width input fields */
+.formContainer input[type="text"] {
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  border: none;
+  background: #f1f1f1;
+    width: 90%;
+}
+
+/* When the inputs get focus, do something */
+.formContainer input[type="text"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Style for the submit/login button */
+.formButton {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: #237ee0;
+    border: none;
+    height: 60px;
+    width: 100%;
+    align-content: center;
+    position: center;
+    transition: 0.3s;
+}
+
+/* Red background color to the cancel button */
+.cancel {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 14px;
+    border-radius: 0px;
+    height: 30px;
+    width: 40px;
+    padding: 1px 1px;
+    background: rgba(255, 10, 10, 0.85);
+}
+
+/* Hover effects for buttons */
+.formButton:hover{
+    cursor: pointer;
+    color: #000;
+}
+
+/*--------------------------------------------------------------
+                        Class Banners
+----------------------------------------------------------------*/
+
+/* the banners for each class page*/
+.banner1,.banner2,.banner3,.banner4{
+    width: 80%;
+    margin: auto;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    background-repeat: repeat;
+    font-family: "ubuntu", sans-serif;
+}
+
+.bannerContent1, .bannerContent2, .bannerContent3, .bannerContent4{
+    opacity: 0.25;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    background-image: url(../../lms_system/img/maori_pattern.jpg);
+    background-size: 244px 76px;
+}
+
+/* colours, sizes and images for each banner */
+.banner1{
+    background-color:#a64444;
+}
+.banner2{
+    background-color: #b5a814;
+}
+.banner3{
+    background-color: #80a644;
+}
+.banner4{
+    background-color:#4487a6;
+}
+.bannerContent1{
+    background-image: url(../../lms_system/img/maori_pattern.jpg);
+    background-size: 244px 76px;
+}
+.bannerContent2{
+    background-image: url(../../lms_system/img/kowhai_pattern.png);
+    background-size: 250px 175px;
+}
+.bannerContent3{
+    background-image: url(../../lms_system/img/fern_pattern.jpg);
+    background-size: 250px 250px;
+}
+.bannerContent4{
+    background-image: url(../../lms_system/img/nz_flag.jpg);
+    background-size: 400px 400px;
+}
+
+.banner h1{
+    color: #fff;
+    position: relative;
+    top: -180px;
+    font-size: 60px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    text-shadow: 2px 2px 8px #000;
+}
+
+/*--------------------------------------------------------------
+                            Filter
+----------------------------------------------------------------*/
+
+/* the surrounding container for the filter */
+.filter{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+    height: 49px;
+    border-radius: 15px;
+    min-width: 500px;
+}
+
+/* the buttons for the filter*/
+.filter a {
+	color: #000;
+	cursor: default;
+	display: block;
+	float: right;
+	font-family: sans-serif;
+	font-size: 15px;
+	padding: 15px 16px;
+	text-align: center;
+	text-decoration: none;
+    transition: 0.3s;
+    border: solid rgb(52, 109, 234) 2px;
+    border-radius: 15px;
+    background: #fff;
+    margin-left: 10px;
+}
+
+/* the "x" button on each button*/
+.filter img{
+    height: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+                            Sorting
+----------------------------------------------------------------*/
+
+/* the sorting menu*/
+.sort{
+    margin: 10px 0px;
+    color: #000;
+	font-size: 25px;
+	text-align: center;
+    transition: 0.3s;
+    border-radius: 25px;
+    background: #fff;
+    float: left;
+}
+
+/* container for the links */
+#sort{
+    font-size: 18px;
+}
+
+/* submit button */
+.sort input{
+    color: #000;
+	display: block;
+	float: right;
+	font-family: sans-serif;
+	font-size: 15px;
+	padding: 7px 10px;
+	text-align: center;
+    border: solid rgb(52, 109, 234) 2px;
+    border-radius: 15px;
+    background: #fff;
+    margin-left: 10px;
+}
+
+/* changes the effect as the user hovers over the button */
+.sort input:hover{
+    cursor: pointer;
+    background: #eee;
+}
+
+/* prevents the sorting menu from overlapping with the filter */
+@media screen and (max-width:975px) {
+    .sorting {
+        width: 100%;
+        margin: 0, 200px;
+    }
+}
+
+/*--------------------------------------------------------------
+                            Stream
+----------------------------------------------------------------*/
+
+/* the container for the post stream*/
+.stream{
+    width: 80%;
+    margin: auto;
+}
+
+/* class for the posts */
+.post{
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: inline-block;
+    border: solid rgb(52, 109, 234) 3px;
+    color: #000000;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* "mark as complete" buttons */
+.post button{
+    position: absolute;
+    font-size: 30px;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    text-align: center;
+    color: #000;
+    background: #eee;
+    border: solid white 1px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* post title*/
+.post h1{
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* post paragraphs*/
+.post p{
+    margin: 15px;
+    display: block;
+}
+
+/* post subheading*/
+.date{
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 2;
+    padding: 5px;
+    width: 350px;
+    margin: auto;
+    height: 20px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* separates the assigned and due dates */
+.date .left{
+    float: left;
+}
+.date .right{
+    float: right;
+    margin-right:30px;
+}
+
+/*--------------------------------------------------------------
+                            Footer
+----------------------------------------------------------------*/
+
+/*footer section*/
+.footer, .footer-classes{
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    height: 86px;
+}
+
+.footer-classes{
+    position: fixed;
+}
+
+.footer p, .footer-classes p{
+    margin-top: 2px;
+    margin-bottom: -20px;
+    font-size: 15px;
+}
+
+/* different colours for links*/
+.footer a, .footer-classes a{
+    color: lightblue;
+    font-style: italic;
 }

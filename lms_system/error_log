@@ -3863,3 +3863,80 @@ Stack trace:
 [16-May-2021 17:36:44 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techwis1/public_html/8L$M!=L9rpr7mnnnnxoiasidosai/lms_system/auth_session.php on line 2
 [16-May-2021 17:36:47 Pacific/Auckland] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/techwis1/public_html/8L$M!=L9rpr7mnnnnxoiasidosai/lms_system/login.php on line 47
 [16-May-2021 17:36:47 Pacific/Auckland] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/techwis1/public_html/8L$M!=L9rpr7mnnnnxoiasidosai/lms_system/login.php on line 47
+[31-Dec-2021 13:17:37 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techwis1/public_html/lms_system/auth_session.php on line 2
+[31-Dec-2021 13:17:39 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techwis1/public_html/lms_system/auth_session.php on line 2
+[31-Dec-2021 13:24:31 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techwis1/public_html/lms_system/auth_session.php on line 2
+[31-Dec-2021 13:24:49 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techwis1/public_html/lms_system/auth_session.php on line 2
+[27-Oct-2022 17:07:20 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'techwis1_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:07:20 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:07:44 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'techwis1_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:07:44 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:07:44 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[27-Oct-2022 17:07:44 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'techwis1_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:07:44 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:12:15 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'techwis1_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:12:15 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:18:59 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'techwis1_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:18:59 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:18:59 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 123
+[27-Oct-2022 17:18:59 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 124
+[27-Oct-2022 17:18:59 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 125
+[27-Oct-2022 17:18:59 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 126
+[27-Oct-2022 17:20:19 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bluddybr_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:20:19 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:20:19 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 123
+[27-Oct-2022 17:20:19 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 124
+[27-Oct-2022 17:20:19 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 125
+[27-Oct-2022 17:20:19 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 126
+[27-Oct-2022 17:20:30 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bluddybr_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:20:30 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:20:39 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bluddybr_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:20:39 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:20:39 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 123
+[27-Oct-2022 17:20:39 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 124
+[27-Oct-2022 17:20:39 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 125
+[27-Oct-2022 17:20:39 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 126
+[27-Oct-2022 17:21:56 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bluddybr_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:21:56 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:22:12 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bluddybr_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:22:12 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:22:12 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 123
+[27-Oct-2022 17:22:12 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 124
+[27-Oct-2022 17:22:12 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 125
+[27-Oct-2022 17:22:12 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 126
+[27-Oct-2022 17:22:23 Pacific/Auckland] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'bluddybr_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/server.php on line 11
+[27-Oct-2022 17:22:23 Pacific/Auckland] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/server.php on line 12
+[27-Oct-2022 17:22:23 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 123
+[27-Oct-2022 17:22:23 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 124
+[27-Oct-2022 17:22:23 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 125
+[27-Oct-2022 17:22:23 Pacific/Auckland] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/bluddybr/public_html/lms-system/server.php on line 126
+[27-Oct-2022 17:24:41 Pacific/Auckland] PHP Notice:  Undefined index: user_type in /home/bluddybr/public_html/lms-system/server.php on line 153
+[27-Oct-2022 17:24:41 Pacific/Auckland] PHP Notice:  Undefined variable: usertype in /home/bluddybr/public_html/lms-system/server.php on line 169
+[27-Oct-2022 17:24:41 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[27-Oct-2022 17:25:04 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[27-Oct-2022 17:25:17 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[27-Oct-2022 17:25:43 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[27-Oct-2022 04:25:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'techwis1_Admin'@'cp-wc94.per01.ds.network' (using password: YES) in /home/bluddybr/public_html/lms-system/upload.php on line 4
+[27-Oct-2022 04:25:58 UTC] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/bluddybr/public_html/lms-system/upload.php on line 5
+[27-Oct-2022 17:26:02 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[27-Oct-2022 17:26:46 Pacific/Auckland] PHP Notice:  Undefined index: user_type in /home/bluddybr/public_html/lms-system/server.php on line 153
+[27-Oct-2022 17:26:46 Pacific/Auckland] PHP Notice:  Undefined variable: usertype in /home/bluddybr/public_html/lms-system/server.php on line 169
+[27-Oct-2022 17:26:47 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[27-Oct-2022 17:30:30 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[28-Oct-2022 11:24:04 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[28-Oct-2022 11:24:17 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[28-Oct-2022 11:24:54 Pacific/Auckland] PHP Notice:  Undefined index: user_type in /home/bluddybr/public_html/lms-system/server.php on line 153
+[28-Oct-2022 11:24:54 Pacific/Auckland] PHP Notice:  Undefined variable: usertype in /home/bluddybr/public_html/lms-system/server.php on line 169
+[28-Oct-2022 11:24:54 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[28-Oct-2022 11:24:54 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[28-Oct-2022 11:26:20 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[30-Oct-2022 17:56:29 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[30-Oct-2022 17:56:33 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[30-Oct-2022 17:56:43 Pacific/Auckland] PHP Notice:  Undefined index: user_type in /home/bluddybr/public_html/lms-system/server.php on line 153
+[30-Oct-2022 17:56:43 Pacific/Auckland] PHP Notice:  Undefined variable: usertype in /home/bluddybr/public_html/lms-system/server.php on line 169
+[30-Oct-2022 17:56:43 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[30-Oct-2022 19:15:55 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[30-Oct-2022 19:15:58 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2
+[30-Oct-2022 19:29:32 Pacific/Auckland] PHP Notice:  Undefined index: user_type in /home/bluddybr/public_html/lms-system/server.php on line 153
+[30-Oct-2022 19:29:32 Pacific/Auckland] PHP Notice:  Undefined variable: usertype in /home/bluddybr/public_html/lms-system/server.php on line 169
+[30-Oct-2022 19:29:32 Pacific/Auckland] PHP Notice:  session_start(): A session had already been started - ignoring in /home/bluddybr/public_html/lms-system/auth_session.php on line 2

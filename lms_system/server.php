@@ -8,7 +8,7 @@ $user_type = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('cp-wc29', 'techwis1_Admin', 'cal5tHea', 'techwis1_teachersmain');
+$db = mysqli_connect('cp-wc94', 'bluddybr_Admin', 'cal5tHea', 'bluddybr_teachersmain');
 if ($db -> connect_errno) {
   echo "Failed to connect to MySQL: " . $db -> connect_error;
 
